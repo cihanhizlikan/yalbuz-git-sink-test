@@ -1,0 +1,217 @@
+[meta]
+1	Yalbuz	0	1	1	en	LogicTree,ServiceCatalog
+[digests]
+Yalbuz-service-catalog.html	D8B2B5C425ADE9238F909D47019598BF0460D32BE22FE4778D040015D2DDF4C0
+Yalbuz-ui-service-call-logic-tree-html.zip	9A983F33921340E7C719A024EA9170C9E63818F95CF69C136F240E3F9CB17E26
+[sources]
+Yalbuz	Folder	C:\\Users\\ihizl\\source\\repos\\Yalbuz	main
+[endpoints]
+0	Billing.Api	Yalbuz	GET	billing/invoice/{orderId}	BillingController	GetInvoice	\0	Rest	.claude/worktrees/wizardly-mcclintock-5bcb4c/Tests/Fixtures/rest-baseline/backend/Billing.Api/Controllers/BillingController.cs	GetInvoiceRequest
+1	Billing.Api	Yalbuz	GET	billing/invoice/{orderId}	BillingController	GetInvoice	\0	Rest	Tests/Fixtures/rest-baseline/backend/Billing.Api/Controllers/BillingController.cs	GetInvoiceRequest
+2	GraphQL	Yalbuz	GraphQL	Mutation.createOrder	Mutation	createOrder	Mutation.createOrder	GraphQl	.claude/worktrees/wizardly-mcclintock-5bcb4c/Tests/Fixtures/rest-baseline/graphql/schema.graphql	\0
+3	GraphQL	Yalbuz	GraphQL	Mutation.createOrder	Mutation	createOrder	Mutation.createOrder	GraphQl	Tests/Fixtures/rest-baseline/graphql/schema.graphql	\0
+4	GraphQL	Yalbuz	GraphQL	Query.order	Query	order	Query.order	GraphQl	.claude/worktrees/wizardly-mcclintock-5bcb4c/Tests/Fixtures/rest-baseline/graphql/schema.graphql	\0
+5	GraphQL	Yalbuz	GraphQL	Query.order	Query	order	Query.order	GraphQl	Tests/Fixtures/rest-baseline/graphql/schema.graphql	\0
+6	GraphQL	Yalbuz	GraphQL	Query.orders	Query	orders	Query.orders	GraphQl	.claude/worktrees/wizardly-mcclintock-5bcb4c/Tests/Fixtures/rest-baseline/graphql/schema.graphql	\0
+7	GraphQL	Yalbuz	GraphQL	Query.orders	Query	orders	Query.orders	GraphQl	Tests/Fixtures/rest-baseline/graphql/schema.graphql	\0
+8	OrderRpcService	Yalbuz	gRPC	OrderRpcService/GetOrder	OrderRpcService	GetOrder	OrderRpcService/GetOrder	Grpc	.claude/worktrees/wizardly-mcclintock-5bcb4c/Tests/Fixtures/rest-baseline/grpc/orders.proto	\0
+9	OrderRpcService	Yalbuz	gRPC	OrderRpcService/GetOrder	OrderRpcService	GetOrder	OrderRpcService/GetOrder	Grpc	Tests/Fixtures/rest-baseline/grpc/orders.proto	\0
+10	OrderRpcService	Yalbuz	gRPC	OrderRpcService/ListOrders	OrderRpcService	ListOrders	OrderRpcService/ListOrders	Grpc	.claude/worktrees/wizardly-mcclintock-5bcb4c/Tests/Fixtures/rest-baseline/grpc/orders.proto	\0
+11	OrderRpcService	Yalbuz	gRPC	OrderRpcService/ListOrders	OrderRpcService	ListOrders	OrderRpcService/ListOrders	Grpc	Tests/Fixtures/rest-baseline/grpc/orders.proto	\0
+12	Orders.Api	Yalbuz	GET	orders/{id}	OrdersController	Get	\0	Rest	.claude/worktrees/wizardly-mcclintock-5bcb4c/Tests/Fixtures/rest-baseline/backend/Orders.Api/Controllers/OrdersController.cs	GetOrderRequest
+13	Orders.Api	Yalbuz	GET	orders/{id}	OrdersController	Get	\0	Rest	Tests/Fixtures/rest-baseline/backend/Orders.Api/Controllers/OrdersController.cs	GetOrderRequest
+14	PricingServiceSoap	Yalbuz	SOAP	PricingService/GetQuote	PricingServiceSoap	GetQuote	PricingService/GetQuote	Soap	.claude/worktrees/wizardly-mcclintock-5bcb4c/Tests/Fixtures/rest-baseline/soap/pricing.wsdl	\0
+15	PricingServiceSoap	Yalbuz	SOAP	PricingService/GetQuote	PricingServiceSoap	GetQuote	PricingService/GetQuote	Soap	Tests/Fixtures/rest-baseline/soap/pricing.wsdl	\0
+16	Yalbuz.Web	Yalbuz	DELETE	api/applications/{name}	ApplicationsController	Delete	\0	Rest	.claude/worktrees/wizardly-mcclintock-5bcb4c/Web/Controllers/ApplicationsController.cs	\0
+17	Yalbuz.Web	Yalbuz	DELETE	api/applications/{name}	ApplicationsController	Delete	\0	Rest	Web/Controllers/ApplicationsController.cs	\0
+18	Yalbuz.Web	Yalbuz	GET	api/applications/{name}/snapshots	ApplicationsController	ListSnapshots	\0	Rest	.claude/worktrees/wizardly-mcclintock-5bcb4c/Web/Controllers/ApplicationsController.cs	\0
+19	Yalbuz.Web	Yalbuz	GET	api/applications/{name}/snapshots	ApplicationsController	ListSnapshots	\0	Rest	Web/Controllers/ApplicationsController.cs	\0
+20	Yalbuz.Web	Yalbuz	GET	api/jobs	JobsController	ListActive	\0	Rest	.claude/worktrees/wizardly-mcclintock-5bcb4c/Web/Controllers/JobsController.cs	\0
+21	Yalbuz.Web	Yalbuz	GET	api/jobs	JobsController	ListActive	\0	Rest	Web/Controllers/JobsController.cs	\0
+22	Yalbuz.Web	Yalbuz	GET	api/jobs/{id:guid}	JobsController	GetStatus	\0	Rest	.claude/worktrees/wizardly-mcclintock-5bcb4c/Web/Controllers/JobsController.cs	\0
+23	Yalbuz.Web	Yalbuz	GET	api/jobs/{id:guid}	JobsController	GetStatus	\0	Rest	Web/Controllers/JobsController.cs	\0
+24	Yalbuz.Web	Yalbuz	GET	api/jobs/{id:guid}/output	JobsController	ListOutput	\0	Rest	.claude/worktrees/wizardly-mcclintock-5bcb4c/Web/Controllers/JobsController.cs	\0
+25	Yalbuz.Web	Yalbuz	GET	api/jobs/{id:guid}/output	JobsController	ListOutput	\0	Rest	Web/Controllers/JobsController.cs	\0
+26	Yalbuz.Web	Yalbuz	GET	api/jobs/{id:guid}/output/{fileName}	JobsController	DownloadOutput	\0	Rest	.claude/worktrees/wizardly-mcclintock-5bcb4c/Web/Controllers/JobsController.cs	\0
+27	Yalbuz.Web	Yalbuz	GET	api/jobs/{id:guid}/output/{fileName}	JobsController	DownloadOutput	\0	Rest	Web/Controllers/JobsController.cs	\0
+28	Yalbuz.Web	Yalbuz	GET	health	HealthController	Get	\0	Rest	.claude/worktrees/wizardly-mcclintock-5bcb4c/Web/Controllers/HealthController.cs	\0
+29	Yalbuz.Web	Yalbuz	GET	health	HealthController	Get	\0	Rest	Web/Controllers/HealthController.cs	\0
+30	Yalbuz.Web	Yalbuz	GET	set-culture	CultureController	Set	\0	Rest	.claude/worktrees/wizardly-mcclintock-5bcb4c/Web/Controllers/CultureController.cs	\0
+31	Yalbuz.Web	Yalbuz	GET	set-culture	CultureController	Set	\0	Rest	Web/Controllers/CultureController.cs	\0
+32	Yalbuz.Web	Yalbuz	POST	api/applications/{name}/snapshots/{**tag}	ApplicationsController	Reconstruct	\0	Rest	.claude/worktrees/wizardly-mcclintock-5bcb4c/Web/Controllers/ApplicationsController.cs	\0
+33	Yalbuz.Web	Yalbuz	POST	api/applications/{name}/snapshots/{**tag}	ApplicationsController	Reconstruct	\0	Rest	Web/Controllers/ApplicationsController.cs	\0
+34	Yalbuz.Web	Yalbuz	POST	api/jobs	JobsController	Submit	\0	Rest	.claude/worktrees/wizardly-mcclintock-5bcb4c/Web/Controllers/JobsController.cs	ScanRequest
+35	Yalbuz.Web	Yalbuz	POST	api/jobs	JobsController	Submit	\0	Rest	Web/Controllers/JobsController.cs	ScanRequest
+36	Yalbuz.Web	Yalbuz	POST	api/jobs/{id:guid}/cancel	JobsController	Cancel	\0	Rest	.claude/worktrees/wizardly-mcclintock-5bcb4c/Web/Controllers/JobsController.cs	\0
+37	Yalbuz.Web	Yalbuz	POST	api/jobs/{id:guid}/cancel	JobsController	Cancel	\0	Rest	Web/Controllers/JobsController.cs	\0
+[req]
+0	OrderId	int
+1	OrderId	int
+2	input	CreateOrderInput!
+3	input	CreateOrderInput!
+4	id	Int!
+5	id	Int!
+6	page	Int
+7	page	Int
+8	id	int32
+9	id	int32
+10	page	int32
+10	page_size	int32
+11	page	int32
+11	page_size	int32
+12	Id	int
+12	IncludeInvoice	bool
+13	Id	int
+13	IncludeInvoice	bool
+14	policyNo	string
+14	coverage	decimal
+15	policyNo	string
+15	coverage	decimal
+34	ApplicationName	string
+34	Repositories	IReadOnlyList<RepositoryInput>
+34	Folders	IReadOnlyList<string>
+34	Artifacts	IReadOnlyList<string>
+34	GenerateArchiMateDiagrams	bool
+34	StandaloneHtml	bool?
+34	PortalBundles	bool
+34	WikiJsApplicationName	string?
+35	ApplicationName	string
+35	Repositories	IReadOnlyList<RepositoryInput>
+35	Folders	IReadOnlyList<string>
+35	Artifacts	IReadOnlyList<string>
+35	GenerateArchiMateDiagrams	bool
+35	StandaloneHtml	bool?
+35	PortalBundles	bool
+35	WikiJsApplicationName	string?
+[res]
+0	InvoiceId	int
+0	Amount	decimal
+0	Currency	string
+1	InvoiceId	int
+1	Amount	decimal
+1	Currency	string
+2	id	Int!
+2	total	Float!
+2	status	String!
+2	lines	[String!]!
+3	id	Int!
+3	total	Float!
+3	status	String!
+3	lines	[String!]!
+4	id	Int!
+4	total	Float!
+4	status	String!
+4	lines	[String!]!
+5	id	Int!
+5	total	Float!
+5	status	String!
+5	lines	[String!]!
+6	id	Int!
+6	total	Float!
+6	status	String!
+6	lines	[String!]!
+7	id	Int!
+7	total	Float!
+7	status	String!
+7	lines	[String!]!
+8	id	int32
+8	total	double
+8	status	string
+8	lines	repeated string
+9	id	int32
+9	total	double
+9	status	string
+9	lines	repeated string
+10	id	int32
+10	total	double
+10	status	string
+10	lines	repeated string
+11	id	int32
+11	total	double
+11	status	string
+11	lines	repeated string
+12	Id	int
+12	Total	decimal
+12	Status	string
+12	Lines	List<string>
+13	Id	int
+13	Total	decimal
+13	Status	string
+13	Lines	List<string>
+14	premium	decimal
+14	currency	string
+15	premium	decimal
+15	currency	string
+[data]
+0	Table	2	INVOICES	0	.claude/worktrees/wizardly-mcclintock-5bcb4c/Tests/Fixtures/rest-baseline/backend/Billing.Infrastructure/InvoiceRepository.cs	AMOUNT,CURRENCY,INVOICE_ID
+1	Table	2	INVOICES	0	Tests/Fixtures/rest-baseline/backend/Billing.Infrastructure/InvoiceRepository.cs	AMOUNT,CURRENCY,INVOICE_ID
+12	Table	2	ORDERS	0	.claude/worktrees/wizardly-mcclintock-5bcb4c/Tests/Fixtures/rest-baseline/backend/Orders.Infrastructure/OrderRepository.cs	ID,STATUS,TOTAL
+13	Table	2	ORDERS	0	Tests/Fixtures/rest-baseline/backend/Orders.Infrastructure/OrderRepository.cs	ID,STATUS,TOTAL
+16	Table	1	Jobs	0	.claude/worktrees/wizardly-mcclintock-5bcb4c/Service/Jobs/RelationalJobStore.cs	
+16	Table	2	Jobs	1	.claude/worktrees/wizardly-mcclintock-5bcb4c/Service/Jobs/RelationalJobStore.cs	
+16	Table	4	Jobs	0	.claude/worktrees/wizardly-mcclintock-5bcb4c/Service/Jobs/RelationalJobStore.cs	FinishedAtUtc,Status
+17	Table	1	Jobs	0	Service/Jobs/RelationalJobStore.cs	
+17	Table	2	Jobs	1	Service/Jobs/RelationalJobStore.cs	
+17	Table	4	Jobs	0	Service/Jobs/RelationalJobStore.cs	FinishedAtUtc,Status
+20	Table	2	Jobs	1	.claude/worktrees/wizardly-mcclintock-5bcb4c/Service/Jobs/RelationalJobStore.cs	
+21	Table	2	Jobs	1	Service/Jobs/RelationalJobStore.cs	
+22	Table	2	Jobs	1	.claude/worktrees/wizardly-mcclintock-5bcb4c/Service/Jobs/RelationalJobStore.cs	
+23	Table	2	Jobs	1	Service/Jobs/RelationalJobStore.cs	
+24	Table	2	Jobs	1	.claude/worktrees/wizardly-mcclintock-5bcb4c/Service/Jobs/RelationalJobStore.cs	
+25	Table	2	Jobs	1	Service/Jobs/RelationalJobStore.cs	
+26	Table	2	Jobs	1	.claude/worktrees/wizardly-mcclintock-5bcb4c/Service/Jobs/RelationalJobStore.cs	
+27	Table	2	Jobs	1	Service/Jobs/RelationalJobStore.cs	
+28	Table	2	Jobs	1	.claude/worktrees/wizardly-mcclintock-5bcb4c/Service/Jobs/RelationalJobStore.cs	
+29	Table	2	Jobs	1	Service/Jobs/RelationalJobStore.cs	
+32	Table	1	Jobs	0	.claude/worktrees/wizardly-mcclintock-5bcb4c/Service/Jobs/RelationalJobStore.cs	
+32	Table	2	Jobs	1	.claude/worktrees/wizardly-mcclintock-5bcb4c/Service/Jobs/RelationalJobStore.cs	
+32	Table	4	Jobs	0	.claude/worktrees/wizardly-mcclintock-5bcb4c/Service/Jobs/RelationalJobStore.cs	FinishedAtUtc,Status
+33	Table	1	Jobs	0	Service/Jobs/RelationalJobStore.cs	
+33	Table	2	Jobs	1	Service/Jobs/RelationalJobStore.cs	
+33	Table	4	Jobs	0	Service/Jobs/RelationalJobStore.cs	FinishedAtUtc,Status
+34	Table	1	Jobs	0	.claude/worktrees/wizardly-mcclintock-5bcb4c/Service/Jobs/RelationalJobStore.cs	
+34	Table	2	Jobs	1	.claude/worktrees/wizardly-mcclintock-5bcb4c/Service/Jobs/RelationalJobStore.cs	
+34	Table	4	Jobs	0	.claude/worktrees/wizardly-mcclintock-5bcb4c/Service/Jobs/RelationalJobStore.cs	FinishedAtUtc,Status
+35	Table	1	Jobs	0	Service/Jobs/RelationalJobStore.cs	
+35	Table	2	Jobs	1	Service/Jobs/RelationalJobStore.cs	
+35	Table	4	Jobs	0	Service/Jobs/RelationalJobStore.cs	FinishedAtUtc,Status
+36	Table	2	Jobs	1	.claude/worktrees/wizardly-mcclintock-5bcb4c/Service/Jobs/RelationalJobStore.cs	
+36	Table	4	Jobs	0	.claude/worktrees/wizardly-mcclintock-5bcb4c/Service/Jobs/RelationalJobStore.cs	FinishedAtUtc,Status
+37	Table	2	Jobs	1	Service/Jobs/RelationalJobStore.cs	
+37	Table	4	Jobs	0	Service/Jobs/RelationalJobStore.cs	FinishedAtUtc,Status
+[screens]
+0	OrderSummary	\0	\0	\0	.claude/worktrees/wizardly-mcclintock-5bcb4c/Tests/Fixtures/rest-baseline/ui-vue/src/OrderSummary.vue	Yalbuz
+1	OrdersView	\0	\0	\0	.claude/worktrees/wizardly-mcclintock-5bcb4c/Tests/Fixtures/rest-baseline/ui-vue/src/OrdersView.vue	Yalbuz
+2	OrderSummary	\0	\0	\0	Tests/Fixtures/rest-baseline/ui-vue/src/OrderSummary.vue	Yalbuz
+3	OrdersView	\0	\0	\0	Tests/Fixtures/rest-baseline/ui-vue/src/OrdersView.vue	Yalbuz
+[elements]
+0	0	Button	Button (refresh)	refresh
+1	0	Page load	Page load (mounted)	mounted
+1	1	Button	Button (save)	save
+1	2	Page load	Page load (setup)	\0
+1	3	Button	[OrderSummary] Button (refresh)	refresh
+2	0	Button	Button (refresh)	refresh
+3	0	Page load	Page load (mounted)	mounted
+3	1	Button	Button (save)	save
+3	2	Page load	Page load (setup)	\0
+3	3	Button	[OrderSummary] Button (refresh)	refresh
+[calls]
+e	0:0	GET	orders/1	/orders/1	12	\0	\0	\0	.claude/worktrees/wizardly-mcclintock-5bcb4c/Tests/Fixtures/rest-baseline/ui-vue/src/OrderSummary.vue	Rest	\0	\0	\0
+e	1:0	GET	orders/1	/orders/1	12	\0	\0	\0	.claude/worktrees/wizardly-mcclintock-5bcb4c/Tests/Fixtures/rest-baseline/ui-vue/src/OrdersView.vue	Rest	\0	\0	\0
+e	1:1	POST	orders	/orders	\0	External service (repository not provided)	\0	\0	.claude/worktrees/wizardly-mcclintock-5bcb4c/Tests/Fixtures/rest-baseline/ui-vue/src/OrdersView.vue	Rest	\0	\0	\0
+e	1:2	GraphQL	Query.order	Query.order	4	\0	\0	\0	.claude/worktrees/wizardly-mcclintock-5bcb4c/Tests/Fixtures/rest-baseline/ui-vue/src/OrdersView.vue	GraphQl	Query.order	\0	\0
+e	1:3	GET	orders/1	/orders/1	12	\0	\0	\0	.claude/worktrees/wizardly-mcclintock-5bcb4c/Tests/Fixtures/rest-baseline/ui-vue/src/OrderSummary.vue	Rest	\0	\0	\0
+e	2:0	GET	orders/1	/orders/1	12	\0	\0	\0	Tests/Fixtures/rest-baseline/ui-vue/src/OrderSummary.vue	Rest	\0	\0	\0
+e	3:0	GET	orders/1	/orders/1	12	\0	\0	\0	Tests/Fixtures/rest-baseline/ui-vue/src/OrdersView.vue	Rest	\0	\0	\0
+e	3:1	POST	orders	/orders	\0	External service (repository not provided)	\0	\0	Tests/Fixtures/rest-baseline/ui-vue/src/OrdersView.vue	Rest	\0	\0	\0
+e	3:2	GraphQL	Query.order	Query.order	4	\0	\0	\0	Tests/Fixtures/rest-baseline/ui-vue/src/OrdersView.vue	GraphQl	Query.order	\0	\0
+e	3:3	GET	orders/1	/orders/1	12	\0	\0	\0	.claude/worktrees/wizardly-mcclintock-5bcb4c/Tests/Fixtures/rest-baseline/ui-vue/src/OrderSummary.vue	Rest	\0	\0	\0
+s	0	SOAP	PricingService/GetQuote	PricingService/GetQuote	14	\0	\0	\0	.claude/worktrees/wizardly-mcclintock-5bcb4c/Tests/Fixtures/rest-baseline/backend/Billing.Application/GetInvoiceHandler.cs	Soap	PricingService/GetQuote	\0	\0
+s	1	SOAP	PricingService/GetQuote	PricingService/GetQuote	14	\0	\0	\0	Tests/Fixtures/rest-baseline/backend/Billing.Application/GetInvoiceHandler.cs	Soap	PricingService/GetQuote	\0	\0
+s	12	gRPC	OrderRpcService/GetOrder	OrderRpcService/GetOrder	8	\0	\0	\0	.claude/worktrees/wizardly-mcclintock-5bcb4c/Tests/Fixtures/rest-baseline/backend/Orders.Application/Orders/GetOrderHandler.cs	Grpc	OrderRpcService/GetOrder	\0	\0
+s	12	GET	billing/invoice/{orderId}	/billing/invoice/{orderId}	0	\0	request.IncludeInvoice	.claude/worktrees/wizardly-mcclintock-5bcb4c/Tests/Fixtures/rest-baseline/backend/Orders.Application/Orders/GetOrderHandler.cs	.claude/worktrees/wizardly-mcclintock-5bcb4c/Tests/Fixtures/rest-baseline/backend/Orders.Infrastructure/BillingClient.cs	Rest	\0	\0	\0
+s	13	gRPC	OrderRpcService/GetOrder	OrderRpcService/GetOrder	8	\0	\0	\0	Tests/Fixtures/rest-baseline/backend/Orders.Application/Orders/GetOrderHandler.cs	Grpc	OrderRpcService/GetOrder	\0	\0
+s	13	GET	billing/invoice/{orderId}	/billing/invoice/{orderId}	0	\0	request.IncludeInvoice	Tests/Fixtures/rest-baseline/backend/Orders.Application/Orders/GetOrderHandler.cs	Tests/Fixtures/rest-baseline/backend/Orders.Infrastructure/BillingClient.cs	Rest	\0	\0	\0
+[layout]
+1	0	component	OrderSummary	column	\0
+3	0	component	OrderSummary	column	\0
