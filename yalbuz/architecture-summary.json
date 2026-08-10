@@ -293,7 +293,7 @@
     {
       "Name": "OrdersView",
       "Calls": [
-        "(external) Harici servis (depo sa\u011Flanmad\u0131)",
+        "(external) External service (repository not provided)",
         "GraphQL Query.order",
         "Orders.Api GET /orders/{id}"
       ]
