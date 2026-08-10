@@ -4,7 +4,7 @@
 Yalbuz-service-catalog.html	788F22DF997C920565A3F3DC50A6C785DCE1CFB5A1009DD8600E7F72801BAAC2
 Yalbuz-ui-service-call-logic-tree-html.zip	AF9B0FF56E9C45E02D40886CD74B2452C3F9DE35DFA83C489862D5DD86D6A24A
 [sources]
-Yalbuz	GitUrl	https://github.com/cihanhizlikan/Yalbuz	main
+Yalbuz	GitUrl	https://github.com/cihanhizlikan/Yalbuz.git	main
 [endpoints]
 0	Billing.Api	Yalbuz	GET	billing/invoice/{orderId}	BillingController	GetInvoice	\0	Rest	Tests/Fixtures/rest-baseline/backend/Billing.Api/Controllers/BillingController.cs	GetInvoiceRequest
 1	GraphQL	Yalbuz	GraphQL	Mutation.createOrder	Mutation	createOrder	Mutation.createOrder	GraphQl	Tests/Fixtures/rest-baseline/graphql/schema.graphql	\0
