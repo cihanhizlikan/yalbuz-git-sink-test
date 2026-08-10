@@ -1,0 +1,118 @@
+[meta]
+2	Yalbuz	0	1	1	tr	LogicTree,ServiceCatalog
+[digests]
+Yalbuz-service-catalog.html	A696D0C0167345BE3B8D00F24CC1E15AA99BFC402B17A122DE01F6D63F24820F
+Yalbuz-ui-service-call-logic-tree-html.zip	7AD1CAFF1C7C677C8AA00F9D1BD25881B66AC6ECDE92F9472C3D42728C276379
+[sources]
+Yalbuz	GitUrl	https://github.com/cihanhizlikan/Yalbuz.git	main
+[endpoints]
+0	Billing.Api	Yalbuz	GET	billing/invoice/{orderId}	BillingController	GetInvoice	\0	Rest	Tests/Fixtures/rest-baseline/backend/Billing.Api/Controllers/BillingController.cs	GetInvoiceRequest
+1	GraphQL	Yalbuz	GraphQL	Mutation.createOrder	Mutation	createOrder	Mutation.createOrder	GraphQl	Tests/Fixtures/rest-baseline/graphql/schema.graphql	\0
+2	GraphQL	Yalbuz	GraphQL	Query.order	Query	order	Query.order	GraphQl	Tests/Fixtures/rest-baseline/graphql/schema.graphql	\0
+3	GraphQL	Yalbuz	GraphQL	Query.orders	Query	orders	Query.orders	GraphQl	Tests/Fixtures/rest-baseline/graphql/schema.graphql	\0
+4	OrderRpcService	Yalbuz	gRPC	OrderRpcService/GetOrder	OrderRpcService	GetOrder	OrderRpcService/GetOrder	Grpc	Tests/Fixtures/rest-baseline/grpc/orders.proto	\0
+5	OrderRpcService	Yalbuz	gRPC	OrderRpcService/ListOrders	OrderRpcService	ListOrders	OrderRpcService/ListOrders	Grpc	Tests/Fixtures/rest-baseline/grpc/orders.proto	\0
+6	Orders.Api	Yalbuz	GET	orders/{id}	OrdersController	Get	\0	Rest	Tests/Fixtures/rest-baseline/backend/Orders.Api/Controllers/OrdersController.cs	GetOrderRequest
+7	PricingServiceSoap	Yalbuz	SOAP	PricingService/GetQuote	PricingServiceSoap	GetQuote	PricingService/GetQuote	Soap	Tests/Fixtures/rest-baseline/soap/pricing.wsdl	\0
+8	Yalbuz.Web	Yalbuz	DELETE	api/applications/{name}	ApplicationsController	Delete	\0	Rest	Web/Controllers/ApplicationsController.cs	\0
+9	Yalbuz.Web	Yalbuz	GET	api/applications/{name}/snapshots	ApplicationsController	ListSnapshots	\0	Rest	Web/Controllers/ApplicationsController.cs	\0
+10	Yalbuz.Web	Yalbuz	GET	api/jobs	JobsController	ListActive	\0	Rest	Web/Controllers/JobsController.cs	\0
+11	Yalbuz.Web	Yalbuz	GET	api/jobs/{id:guid}	JobsController	GetStatus	\0	Rest	Web/Controllers/JobsController.cs	\0
+12	Yalbuz.Web	Yalbuz	GET	api/jobs/{id:guid}/output	JobsController	ListOutput	\0	Rest	Web/Controllers/JobsController.cs	\0
+13	Yalbuz.Web	Yalbuz	GET	api/jobs/{id:guid}/output/{fileName}	JobsController	DownloadOutput	\0	Rest	Web/Controllers/JobsController.cs	\0
+14	Yalbuz.Web	Yalbuz	GET	health	HealthController	Get	\0	Rest	Web/Controllers/HealthController.cs	\0
+15	Yalbuz.Web	Yalbuz	GET	set-culture	CultureController	Set	\0	Rest	Web/Controllers/CultureController.cs	\0
+16	Yalbuz.Web	Yalbuz	POST	api/applications/{name}/snapshots/{timestamp}	ApplicationsController	Reconstruct	\0	Rest	Web/Controllers/ApplicationsController.cs	\0
+17	Yalbuz.Web	Yalbuz	POST	api/jobs	JobsController	Submit	\0	Rest	Web/Controllers/JobsController.cs	ScanRequest
+18	Yalbuz.Web	Yalbuz	POST	api/jobs/{id:guid}/cancel	JobsController	Cancel	\0	Rest	Web/Controllers/JobsController.cs	\0
+[req]
+0	OrderId	int
+1	input	CreateOrderInput!
+2	id	Int!
+3	page	Int
+4	id	int32
+5	page	int32
+5	page_size	int32
+6	Id	int
+6	IncludeInvoice	bool
+7	policyNo	string
+7	coverage	decimal
+17	ApplicationName	string
+17	Repositories	IReadOnlyList<RepositoryInput>
+17	Folders	IReadOnlyList<string>
+17	Artifacts	IReadOnlyList<string>
+17	GenerateArchiMateDiagrams	bool
+17	StandaloneHtml	bool?
+17	PortalBundles	bool
+17	WikiJsApplicationName	string?
+[res]
+0	InvoiceId	int
+0	Amount	decimal
+0	Currency	string
+1	id	Int!
+1	total	Float!
+1	status	String!
+1	lines	[String!]!
+2	id	Int!
+2	total	Float!
+2	status	String!
+2	lines	[String!]!
+3	id	Int!
+3	total	Float!
+3	status	String!
+3	lines	[String!]!
+4	id	int32
+4	total	double
+4	status	string
+4	lines	repeated string
+5	id	int32
+5	total	double
+5	status	string
+5	lines	repeated string
+6	Id	int
+6	Total	decimal
+6	Status	string
+6	Lines	List<string>
+7	premium	decimal
+7	currency	string
+[data]
+0	Table	2	INVOICES	0	Tests/Fixtures/rest-baseline/backend/Billing.Infrastructure/InvoiceRepository.cs	AMOUNT,CURRENCY,INVOICE_ID
+6	Table	2	ORDERS	0	Tests/Fixtures/rest-baseline/backend/Orders.Infrastructure/OrderRepository.cs	ID,STATUS,TOTAL
+8	Table	1	Jobs	0	Service/Jobs/RelationalJobStore.cs	
+8	Table	2	Jobs	1	Service/Jobs/RelationalJobStore.cs	
+8	Table	4	Jobs	0	Service/Jobs/RelationalJobStore.cs	FinishedAtUtc,Status
+10	Table	2	Jobs	1	Service/Jobs/RelationalJobStore.cs	
+11	Table	2	Jobs	1	Service/Jobs/RelationalJobStore.cs	
+12	Table	2	Jobs	1	Service/Jobs/RelationalJobStore.cs	
+13	Table	2	Jobs	1	Service/Jobs/RelationalJobStore.cs	
+14	Table	2	Jobs	1	Service/Jobs/RelationalJobStore.cs	
+16	Table	1	Jobs	0	Service/Jobs/RelationalJobStore.cs	
+16	Table	2	Jobs	1	Service/Jobs/RelationalJobStore.cs	
+16	Table	4	Jobs	0	Service/Jobs/RelationalJobStore.cs	FinishedAtUtc,Status
+17	Table	1	Jobs	0	Service/Jobs/RelationalJobStore.cs	
+17	Table	2	Jobs	1	Service/Jobs/RelationalJobStore.cs	
+17	Table	4	Jobs	0	Service/Jobs/RelationalJobStore.cs	FinishedAtUtc,Status
+18	Table	2	Jobs	1	Service/Jobs/RelationalJobStore.cs	
+18	Table	4	Jobs	0	Service/Jobs/RelationalJobStore.cs	FinishedAtUtc,Status
+[screens]
+0	OrderSummary	\0	\0	\0	Tests/Fixtures/rest-baseline/ui-vue/src/OrderSummary.vue	Yalbuz
+1	OrdersView	\0	\0	\0	Tests/Fixtures/rest-baseline/ui-vue/src/OrdersView.vue	Yalbuz
+[elements]
+0	0	Button	Button (refresh)	refresh
+1	0	Page load	Page load (mounted)	mounted
+1	1	Button	Button (save)	save
+1	2	Page load	Page load (setup)	\0
+1	3	Button	[OrderSummary] Button (refresh)	refresh
+[calls]
+e	0:0	GET	orders/1	/orders/1	6	\0	\0	\0	Tests/Fixtures/rest-baseline/ui-vue/src/OrderSummary.vue	Rest	\0	\0	\0
+e	1:0	GET	orders/1	/orders/1	6	\0	\0	\0	Tests/Fixtures/rest-baseline/ui-vue/src/OrdersView.vue	Rest	\0	\0	\0
+e	1:1	POST	orders	/orders	\0	External service (repository not provided)	\0	\0	Tests/Fixtures/rest-baseline/ui-vue/src/OrdersView.vue	Rest	\0	\0	\0
+e	1:2	GraphQL	Query.order	Query.order	2	\0	\0	\0	Tests/Fixtures/rest-baseline/ui-vue/src/OrdersView.vue	GraphQl	Query.order	\0	\0
+e	1:3	GET	orders/1	/orders/1	6	\0	\0	\0	Tests/Fixtures/rest-baseline/ui-vue/src/OrderSummary.vue	Rest	\0	\0	\0
+s	0	SOAP	PricingService/GetQuote	PricingService/GetQuote	7	\0	\0	\0	Tests/Fixtures/rest-baseline/backend/Billing.Application/GetInvoiceHandler.cs	Soap	PricingService/GetQuote	\0	\0
+s	6	gRPC	OrderRpcService/GetOrder	OrderRpcService/GetOrder	4	\0	\0	\0	Tests/Fixtures/rest-baseline/backend/Orders.Application/Orders/GetOrderHandler.cs	Grpc	OrderRpcService/GetOrder	\0	\0
+s	6	GET	billing/invoice/{orderId}	/billing/invoice/{orderId}	0	\0	request.IncludeInvoice	Tests/Fixtures/rest-baseline/backend/Orders.Application/Orders/GetOrderHandler.cs	Tests/Fixtures/rest-baseline/backend/Orders.Infrastructure/BillingClient.cs	Rest	\0	\0	\0
+[layout]
+1	0	component	OrderSummary	column	\0
+[end]
+105
