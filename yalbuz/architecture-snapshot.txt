@@ -1,8 +1,8 @@
 [meta]
-1	Yalbuz	0	1	1	en	LogicTree,ServiceCatalog
+2	Yalbuz	0	1	1	tr	LogicTree,ServiceCatalog
 [digests]
-Yalbuz-service-catalog.html	788F22DF997C920565A3F3DC50A6C785DCE1CFB5A1009DD8600E7F72801BAAC2
-Yalbuz-ui-service-call-logic-tree-html.zip	AF9B0FF56E9C45E02D40886CD74B2452C3F9DE35DFA83C489862D5DD86D6A24A
+Yalbuz-service-catalog.html	BF4521748FA30E110085ED1A1C7005CC7FD06E7E51EC8107D27E3089967F1242
+Yalbuz-ui-service-call-logic-tree-html.zip	7AD1CAFF1C7C677C8AA00F9D1BD25881B66AC6ECDE92F9472C3D42728C276379
 [sources]
 Yalbuz	GitUrl	https://github.com/cihanhizlikan/Yalbuz.git	main
 [endpoints]
@@ -114,3 +114,5 @@ s	6	gRPC	OrderRpcService/GetOrder	OrderRpcService/GetOrder	4	\0	\0	\0	Tests/Fixt
 s	6	GET	billing/invoice/{orderId}	/billing/invoice/{orderId}	0	\0	request.IncludeInvoice	Tests/Fixtures/rest-baseline/backend/Orders.Application/Orders/GetOrderHandler.cs	Tests/Fixtures/rest-baseline/backend/Orders.Infrastructure/BillingClient.cs	Rest	\0	\0	\0
 [layout]
 1	0	component	OrderSummary	column	\0
+[end]
+105
