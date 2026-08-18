@@ -1,0 +1,3925 @@
+{
+  "Application": "TheUiShell",
+  "Services": [],
+  "Screens": [
+    {
+      "Name": "Adres Referans Tan\u0131mlar\u0131 [AddressReferenceDefinitionsPage]",
+      "Route": "adres-referans-tanimlari",
+      "Calls": [
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Ana S\u00F6zle\u015Fme Sorgulama Detay [MasterPolicyDetail]",
+      "Route": "/ana-sozlesme-sorgulama/detay",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Ana S\u00F6zle\u015Fme Sorgulama [MasterPolicyQuerying]",
+      "Route": "/ana-sozlesme-sorgulama",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) customer-api (not provided)",
+        "(external) pension-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Ana S\u00F6zle\u015Fme Yaratma D\u00FCzenleme Detay [MasterPolicyEdit]",
+      "Route": "/ana-sozlesme-yaratma/duzenleme/detay",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Ana S\u00F6zle\u015Fme Yaratma D\u00FCzenleme [MasterPolicyEditQuerying]",
+      "Route": "/ana-sozlesme-yaratma/duzenleme",
+      "Calls": [
+        "(external) auth-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Ana S\u00F6zle\u015Fme Yaratma Onay Detay [MasterPolicyApprovalDetail]",
+      "Route": "/ana-sozlesme-yaratma/onay/detay",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) auth-api (not provided)",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Ana S\u00F6zle\u015Fme Yaratma Onay [MasterPolicyApproval]",
+      "Route": "/ana-sozlesme-yaratma/onay",
+      "Calls": [
+        "(external) auth-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Ana S\u00F6zle\u015Fme Yaratma Yeni Sayfas\u0131 [CreateMasterPolicyQuerying]",
+      "Route": "/ana-sozlesme-yaratma",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) customer-api (not provided)",
+        "(external) pension-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Ana S\u00F6zle\u015Fme Yaratma Yeni Sayfas\u0131 [CreateMasterPolicy]",
+      "Route": "/ana-sozlesme-yaratma/yeni",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Araci Sorgulama [AgentsQuerying]",
+      "Route": "/aracilar",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) customer-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Arac\u0131 Ofis De\u011Fi\u015Fikli\u011Fi [ChangeRegPage]",
+      "Route": "/araci-ofis-degisikligi",
+      "Calls": [
+        "(external) customer-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Arac\u0131 Sorgulama Detay [AgentsDetails]",
+      "Route": "/aracilar/detay",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Arac\u0131 Teklif Yetki Detay Ekran\u0131 [CorporatePropositionAuthDetail]",
+      "Route": "/arac\u0131-teklif-yetki/detay/:planType/:positionCode/:planNo",
+      "Calls": [
+        "(external) auth-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) payment-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Arac\u0131 Teklif Yetki Ekran\u0131 [CorporatePropositionAuthPage]",
+      "Route": "/arac\u0131-teklif-yetki",
+      "Calls": [
+        "(external) auth-api (not provided)",
+        "(external) payment-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Asgari \u00DCcret [MinimumWageQuerying]",
+      "Route": "/asgari-ucret",
+      "Calls": [
+        "(external) customer-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "AuthPage",
+      "Route": "/auth/*",
+      "Calls": [
+        "(external) auth-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Axa Dosya Karar [UnemploymentAxaDecision]",
+      "Route": "/tazminat-dosya-sorgulama/axa-dosya-karar",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Banka Hesab\u0131 Yarat [CreateBankAccount]",
+      "Route": "/banka-hesabi-yarat",
+      "Calls": [
+        "(external) customer-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Banka Sorgulama Detay [BanksPage]",
+      "Route": "/bankalar/detay",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Banka Sorgulama D\u00F6k\u00FCman Sorgulama [DocumentQuerying]",
+      "Route": "/dokuman-sorgulama",
+      "Calls": [
+        "(external) document-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Banka Sorgulama [BanksPage]",
+      "Route": "/bankalar",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Befas Sifre Guncelleme [BefasPasswordUpdate]",
+      "Route": "/befas-sifre-guncelleme",
+      "Calls": [
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Belge Kontrol Sayfas\u0131 [IndemnityDocumentControl]",
+      "Route": "/lehtar-surec-sorgulama/belge-kontrol",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Belge Kontrol [IndemnityDocumentControl]",
+      "Route": "/tazminat-dosya-sorgulama/belge-kontrol",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Belge Kontrol [RiskAcceptanceFileControl]",
+      "Route": "/sozlesme-duzenleme/belge-kontrol",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Belge Tan\u0131mlama [DocumentRepository]",
+      "Route": "/konfigurasyon-belgeler",
+      "Calls": [
+        "(external) configurator-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Belge Y\u00FCkleme Sayfas\u0131 [IndemnityDocumentUpload]",
+      "Route": "/lehtar-surec-sorgulama/belge-yukleme",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) payment-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Belge Y\u00FCkleme [IndemnityDocumentUpload]",
+      "Route": "/tazminat-dosya-sorgulama/belge-yukleme",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) payment-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Belge Y\u00FCkleme [RiskAcceptanceFileUpload]",
+      "Route": "/sozlesme-duzenleme/belge-yukleme",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Ceza \u00D6demeleri Kontrol Ad\u0131m\u0131 [IndemnityApproval]",
+      "Route": "/ceza-odemeleri-kontrol",
+      "Calls": [
+        "(external) pension-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Daini Murtehin Odeme Kontrol [LossPayeePaymentControl]",
+      "Route": "/lehtar-surec-sorgulama/daini-murtehin-odeme-kontrol",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Daini Murtehin Odeme Raporu Onay 2 [LossPayeePaymentReportConfirmation]",
+      "Route": "/lehtar-surec-sorgulama/daini-murtehin-odeme-raporu-onay-2",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Daini Murtehin Odeme Raporu Onay [LossPayeePaymentReport]",
+      "Route": "/lehtar-surec-sorgulama/daini-murtehin-odeme-raporu-onay",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Daini Murtehin Odeme Yap\u0131lmas\u0131 [LossPayee]",
+      "Route": "/lehtar-surec-sorgulama/daini-murtehin-odeme-yapilmasi",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Daini Murtehin \u00D6deme Kontrol [LossPayeePaymentControl]",
+      "Route": "/tazminat-dosya-sorgulama/daini-murtehin-odeme-kontrol",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Daini Murtehin \u00D6deme Raporu 2. Onay [LossPayeePaymentReportConfirmation]",
+      "Route": "/tazminat-dosya-sorgulama/daini-murtehin-odeme-raporu-onay-2",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Daini Murtehin \u00D6deme Raporu Onay [LossPayeePaymentReport]",
+      "Route": "/tazminat-dosya-sorgulama/daini-murtehin-odeme-raporu-onay",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Daini Murtehin \u00D6deme Yap\u0131lmas\u0131 [LossPayee]",
+      "Route": "/tazminat-dosya-sorgulama/daini-murtehin-odeme-yapilmasi",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Dashboard [DashboardPage]",
+      "Route": "/dashboard",
+      "Calls": [
+        "(external) auth-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Dava Kayd\u0131 G\u00FCncelleme [LitigationUpdateForm]",
+      "Route": "/dava-sorgulama/dava-kaydi-guncelleme",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Dava Kayd\u0131 Olu\u015Fturma Kay\u0131t [LitigationRegistrationDetail]",
+      "Route": "/dava-kaydi-olusturma/kayit",
+      "Calls": [
+        "(external) claims-api (not provided)",
+        "(external) customer-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Dava Kayd\u0131 Olu\u015Fturma [LitigationRegistrationQuerying]",
+      "Route": "/dava-kaydi-olusturma",
+      "Calls": [
+        "(external) claims-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Dava Kayd\u0131 Onay [LitigationRegistrationConfirmation]",
+      "Route": "/dava-sorgulama/dava-kaydi-onay",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Dava Sonucu Onay [LitigationResultConfirmation]",
+      "Route": "/dava-sorgulama/dava-sonucu-onay",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Dava Sonu\u00E7 Giri\u015F [LitigationResultEntry]",
+      "Route": "/dava-sorgulama/dava-sonuc-giris",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Dava Sonu\u00E7 [LitigationResult]",
+      "Route": "/dava-sorgulama/dava-sonuc",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Dava Sorgulama [LitigationQuerying]",
+      "Route": "/dava-sorgulama",
+      "Calls": [
+        "(external) claims-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Degisiklik Olusturma [PolicyChangeRegistration]",
+      "Route": "/police-sorgulama/detay/degisiklik-olusturma",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) auth-api (not provided)",
+        "(external) payment-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "De\u011Fi\u015Fiklik Listeleme [PolicyChangeList]",
+      "Route": "/degisiklik-listeleme",
+      "Calls": [
+        "(external) auth-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "De\u011Fi\u015Fiklik iptali [CancelChanges]",
+      "Route": "/degisiklik-iptali",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) customer-api (not provided)",
+        "(external) pension-api (not provided)"
+      ]
+    },
+    {
+      "Name": "De\u011Fi\u015Fiklik iptali detay [CancelChangesDetail]",
+      "Route": "/degisiklik-iptali/detay",
+      "Calls": [
+        "(external) customer-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "De\u011Fi\u015Fiklik listeleme belge kontrol [ProcessDocumentControl]",
+      "Route": "/degisiklik-listeleme/belge-kontrol",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) auth-api (not provided)",
+        "(external) claims-api (not provided)",
+        "(external) payment-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "De\u011Fi\u015Fiklik listeleme belge y\u00FCkleme [ProcessDocumentUpload]",
+      "Route": "/degisiklik-listeleme/belge-yukleme",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) auth-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "De\u011Fi\u015Fiklik listeleme uyum g\u00F6revlisi onay [ProcessComplianceApproval]",
+      "Route": "/degisiklik-listeleme/uyum-gorevlisi-onay",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) auth-api (not provided)",
+        "(external) claims-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "De\u011Fi\u015Fiklik olu\u015Fturma [PolicyChangeRegistration]",
+      "Route": "/degisiklik-listeleme/degisiklik-olusturma",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) auth-api (not provided)",
+        "(external) payment-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Di\u011Fer Roller Sorgulama Detay [OtherRolesDetails]",
+      "Route": "/diger-roller/detay",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Di\u011Fer Roller Sorgulama [OtherRolesQuerying]",
+      "Route": "/diger-roller",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Dok\u00FCman Listesi [DocumentList]",
+      "Route": "/dokuman-listesi",
+      "Calls": [
+        "(external) claims-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "D\u00F6viz Kurlar\u0131 [ExchangeRates]",
+      "Route": "/doviz-kurlari",
+      "Calls": [
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "EGP Ara \u00D6deme Yeni Ekleme [PartialSurrenderProcess]",
+      "Route": "/egp-ara-odeme/yeni",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "EGP Ara \u00D6deme [PartialSurrenderQuerying]",
+      "Route": "/egp-ara-odeme",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) pension-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Egm Haciz Sorgulama [SeizureInput]",
+      "Route": "/egm-haciz-sorgulama",
+      "Calls": [
+        "(external) pension-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Ek Fayda Tan\u0131mlama [EndorsementRepositoryQuerying]",
+      "Route": "/ek-fayda-tanimlama",
+      "Calls": [
+        "(external) configurator-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Ek YGK ve EGM Gider Kesintisi Tanimlama/Sorgulama [OverdueChangesQuerying]",
+      "Route": "/ek-ygk-egm-gider-kesintisi",
+      "Calls": [
+        "(external) configurator-api (not provided)",
+        "(external) pension-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Emeklilik Yat\u0131r\u0131m Fonlar\u0131 [FundAddition]",
+      "Route": "/emeklilik-yatirim-fonlari",
+      "Calls": [
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Ferdi Beh Tanzim Sayfas\u0131 [CreateIndividualBEHQuerying]",
+      "Route": "/ferdi-beh-tanzim",
+      "Calls": [
+        "(external) customer-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Ferdi Beh Tanzim Yeni [CreateIndividualBEH]",
+      "Route": "/ferdi-beh-tanzim/yeni",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Ferdi Plan Devlet Katk\u0131s\u0131 Bilgileri [StateSubsidyDetails]",
+      "Route": "/devlet-katkisi-detaylari",
+      "Calls": [
+        "(external) pension-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Ferdi Plan De\u011Fi\u015Fikli\u011Fi Onay De\u011Ferlendirme [IndividualPlanAssessment]",
+      "Route": "/ferdi-plan-degisikligi/onay/degerlendirme",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) auth-api (not provided)",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Ferdi Plan De\u011Fi\u015Fikli\u011Fi Onay [IndividualPlanApproval]",
+      "Route": "/ferdi-plan-degisikligi/onay",
+      "Calls": [
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Ferdi Plan De\u011Fi\u015Fikli\u011Fi [IndividualPlan]",
+      "Route": "/ferdi-plan-degisikligi",
+      "Calls": [
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Ferdiden Grup Plana De\u011Fi\u015Fiklik Onay De\u011Ferlendirme [IndividualToGroupPlanAssessment]",
+      "Route": "/ferdiden-grup-plana-degisiklik/onay/degerlendirme",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) auth-api (not provided)",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Ferdiden Grup Plana De\u011Fi\u015Fiklik Onay [IndividualToGroupPlanApproval]",
+      "Route": "/ferdiden-grup-plana-degisiklik/onay",
+      "Calls": [
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Ferdiden grup plana de\u011Fi\u015Fiklik [IndividualToGroupPlan]",
+      "Route": "/ferdiden-grup-plana-degisiklik",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) customer-api (not provided)",
+        "(external) pension-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Ferdiden grup plana de\u011Fi\u015Fiklik yeni [IndividualToGroupPlanCreate]",
+      "Route": "/ferdiden-grup-plana-degisiklik/yeni",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Fon Detay [FundPriceDetail]",
+      "Route": "/fon-detayi",
+      "Calls": [
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Fon De\u011Fi\u015Fikli\u011Fi Detay [FundChangesDetail]",
+      "Route": "/fon-degisikligi/detay",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Fon De\u011Fi\u015Fikli\u011Fi Onay Detay [FundSwitchApprovalDetail]",
+      "Route": "/fon-degisikligi/onay/detay",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) auth-api (not provided)",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Fon De\u011Fi\u015Fikli\u011Fi Onay [FundChangesApprovalQuerying]",
+      "Route": "/fon-degisikligi/onay",
+      "Calls": [
+        "(external) auth-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Fon De\u011Fi\u015Fikli\u011Fi [FundChangesQuerying]",
+      "Route": "/fon-degisikligi",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) customer-api (not provided)",
+        "(external) pension-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Fon Fiyat Giri\u015F [InsertFundPrices]",
+      "Route": "/fon-fiyat-giris/*",
+      "Calls": [
+        "(external) investment-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Fon Fiyat Hatas\u0131 [FundPriceErrorQuerying]",
+      "Route": "/fon-fiyat-hatasi",
+      "Calls": [
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Fon Fiyat Hatas\u0131 ile Sonlanma Hesaplar\u0131 D\u00FCzenleme [FundPriceTerminationQuerying]",
+      "Route": "/fon-fiyat-hata-sonlanma-hesaplar",
+      "Calls": [
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Fon Fiyat \u0130ptal [CancelFundPrices]",
+      "Route": "/fon-fiyat-iptal/*",
+      "Calls": [
+        "(external) investment-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Fon Fiyatlar\u0131 [FundPriceQuerying]",
+      "Route": "/fon-fiyatlari",
+      "Calls": [
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Fon Sat\u0131\u015Fs\u0131z Vade De\u011Fi\u015Ftirme [FundChangeWithoutSelling]",
+      "Route": "/fon-satissiz-vade-degistirme",
+      "Calls": [
+        "(external) pension-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Fon Tan\u0131m Sorgulama Detay [FundDefinitionDetailsPage]",
+      "Route": "/fon-tanim-sorgulama/detay/*",
+      "Calls": [
+        "(external) investment-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Fon Tan\u0131m Sorgulama [FundDefinitionPage]",
+      "Route": "/fon-tanim-sorgulama",
+      "Calls": [
+        "(external) investment-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Fonmatik Robo Toplu Da\u011F\u0131l\u0131m [Robo]",
+      "Route": "/fonmatik-robo-toplu-dagilim",
+      "Calls": [
+        "(external) configurator-api (not provided)",
+        "(external) pension-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Gelir Plan\u0131 Tan\u0131mlama [IncomePlanConfigurationQuerying]",
+      "Route": "/gelir-plani-tanimlama",
+      "Calls": [
+        "(external) configurator-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Gelir \u00D6demeleri De\u011Fi\u015Fikli\u011Fi [IncomePolicyProcess]",
+      "Route": "/gelir-odemeleri-degisikligi/yeni",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Gelir \u00D6demeleri De\u011Fi\u015Fikli\u011Fi [IncomePolicyQuerying]",
+      "Route": "/gelir-odemeleri-degisikligi",
+      "Calls": [
+        "(external) configurator-api (not provided)",
+        "(external) pension-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Genel M\u00FCd\u00FCr Karar [RiskAcceptanceGMDecision]",
+      "Route": "/sozlesme-duzenleme/gm-karar",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Genel M\u00FCd\u00FCr Yard\u0131mc\u0131s\u0131 Karar [RiskAcceptanceGMYDecision]",
+      "Route": "/sozlesme-duzenleme/gmy-karar",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Giden \u00D6deme Sonu\u00E7 [BeneficiaryPaymentResult]",
+      "Route": "/lehtar-surec-sorgulama/giden-odeme-sonuc",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Grup Beh Tanzim Yeni [CreateGroupBEH]",
+      "Route": "/grup-beh-tanzim/yeni",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Grup Beh Tanzim [CreateGroupBEHQuerying]",
+      "Route": "/grup-beh-tanzim",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) customer-api (not provided)",
+        "(external) pension-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Grup De\u011Fi\u015Fiklik Olu\u015Fturma [GroupAnnexPage]",
+      "Route": "grup-degisiklik",
+      "Calls": [
+        "(external) document-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Grup De\u011Fi\u015Fiklik Olu\u015Fturma [GroupAnnexPage]",
+      "Route": "/grup-degisiklik/:stepNumber",
+      "Calls": [
+        "(external) document-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Grup De\u011Fi\u015Fiklik Olu\u015Fturma [GroupAnnexPage]",
+      "Route": "/grup-degisiklik/:processId/:stepNumber",
+      "Calls": [
+        "(external) document-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Grup De\u011Fi\u015Fiklik \u0130zleme [GroupAnnexSearchPage]",
+      "Route": "/grup-degisiklik-izleme",
+      "Calls": [
+        "(external) auth-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Grup Plan De\u011Fi\u015Fikli\u011Fi Ayn\u0131 Kurumsal Ba\u011F Farkl\u0131 Ana S\u00F6zle\u015Fme [SameEngagementDiffMasterPolicy]",
+      "Route": "/grup-plan-degisikligi/detay/ayni-kurumsal-bag-farkli-ana-sozlesme",
+      "Calls": [
+        "(external) customer-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Grup Plan De\u011Fi\u015Fikli\u011Fi Detay Farkl\u00C3\u201E\u00C2\u00B1 Kurumsal Ba\u011F [DifferentEngagement]",
+      "Route": "/grup-plan-degisikligi/detay/farkli-kurumsal-bag",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) customer-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Grup Plan De\u011Fi\u015Fikli\u011Fi Onay De\u011Ferlendirme [GroupPlanAssessment]",
+      "Route": "/grup-plan-degisikligi/onay/degerlendirme",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) auth-api (not provided)",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Grup Plan De\u011Fi\u015Fikli\u011Fi Onay [GroupPlanApprovals]",
+      "Route": "/grup-plan-degisikligi/onay",
+      "Calls": [
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Grup Teklif Olu\u015Fturma [GroupPropositionPage]",
+      "Route": "/grup-teklif",
+      "Calls": [
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Grup Teklif Olu\u015Fturma [GroupPropositionPage]",
+      "Route": "/grup-teklif/:tabName/:stepNumber",
+      "Calls": [
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Grup Teklif Olu\u015Fturma [GroupPropositionPage]",
+      "Route": "/grup-teklif/:groupPropositionId/:tabName/:stepNumber",
+      "Calls": [
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Grup Teklif \u0130zleme [GroupPropositionSearchPage]",
+      "Route": "/grup-teklif-izleme",
+      "Calls": [
+        "(external) auth-api (not provided)",
+        "(external) payment-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Grup plan de\u011Fi\u015Fikli\u011Fi [GroupPlanChange]",
+      "Route": "/grup-plan-degisikligi",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) customer-api (not provided)",
+        "(external) pension-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Grup plan de\u011Fi\u015Fikli\u011Fi detay ayn\u0131 ana s\u00F6zle\u015Fme farkl\u0131 grup objesi [SameMasterPolicyDiffObject]",
+      "Route": "/grup-plan-degisikligi/detay/ayni-ana-sozlesme-farkli-grup-objesi",
+      "Calls": [
+        "(external) customer-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Gruptan Ferdi Plana De\u011Fi\u015Fiklik Onay Degerlendirme [GroupToIndividualPlanAssessment]",
+      "Route": "/gruptan-ferdi-plana-degisiklik/onay/degerlendirme",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) auth-api (not provided)",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Gruptan Ferdi Plana De\u011Fi\u015Fiklik Onay [GroupToIndividualPlanApproval]",
+      "Route": "/gruptan-ferdi-plana-degisiklik/onay",
+      "Calls": [
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Gruptan ferdi Plana De\u011Fi\u015Fiklik Yeni [GroupToIndividualPlanCreate]",
+      "Route": "/gruptan-ferdi-plana-degisiklik/yeni",
+      "Calls": [
+        "(external) configurator-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Gruptan ferdi Plana De\u011Fi\u015Fiklik [GroupToIndividualPlan]",
+      "Route": "/gruptan-ferdi-plana-degisiklik",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) customer-api (not provided)",
+        "(external) pension-api (not provided)"
+      ]
+    },
+    {
+      "Name": "G\u00FCnl\u00FCk FTGK Tutar\u0131 ve FMAK Tutar Giri\u015Fi [DailyFIGKAmount]",
+      "Route": "/gunluk-ftgk-tutari-ve-fmak-tutar-girisi",
+      "Calls": [
+        "(external) pension-api (not provided)"
+      ]
+    },
+    {
+      "Name": "G\u00FCvence Hesab\u0131 Listesi [AssuranceQuerying]",
+      "Route": "/guvence-hesabi-listesi",
+      "Calls": [
+        "(external) claims-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Haciz \u0130\u015F S\u00FCreci [SeizureProcess]",
+      "Route": "/haciz/haciz-sureci",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Hak Kazanma [Vesting]",
+      "Route": "/hak-kazanma",
+      "Calls": [
+        "(external) configurator-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Hak Talebi Detay [PensionClaimDetail]",
+      "Route": "/hak-talebi/detay",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Hak Talebi Kapsam\u0131ndaki \u00D6demeler [PensionClaimMainPayments]",
+      "Route": "/hak-talebi-odemeler",
+      "Calls": [
+        "(external) pension-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Havale EFT Gelen \u00D6demeler Detay [TransferEFTDetail]",
+      "Route": "/transfer-eft/detay",
+      "Calls": [
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Havale EFT Gelen \u00D6demeler [TransferEFTQuerying]",
+      "Route": "/transfer-eft",
+      "Calls": [
+        "(external) customer-api (not provided)",
+        "(external) pension-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Havale Eft Gelen \u00D6demeler Onay Detay [TransferEFTApprovalDetail]",
+      "Route": "/havale-eft-gelen-odemeler/onay/detay",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) auth-api (not provided)",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Havale Eft Gelen \u00D6demeler Onay [TransferEFTApproval]",
+      "Route": "/havale-eft-gelen-odemeler/onay",
+      "Calls": [
+        "(external) auth-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Hukuk \u0130\u015Flemleri Sorgulama [CourtOperationQuerying]",
+      "Route": "/hukuk-islemleri-sorgulama",
+      "Calls": [
+        "(external) pension-api (not provided)"
+      ]
+    },
+    {
+      "Name": "IVR K\u0131sa Kod G\u00FCncelleme [IVRCodeQuerying]",
+      "Route": "/ivr-kisa-kod",
+      "Calls": [
+        "(external) customer-api (not provided)",
+        "(external) pension-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Ikraz kayd\u0131 belge kontrol [ProcessDocumentControl]",
+      "Route": "/ikraz-kaydi-listeleme/belge-kontrol",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) auth-api (not provided)",
+        "(external) claims-api (not provided)",
+        "(external) payment-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Ikraz kayd\u0131 belge y\u00FCkleme [ProcessDocumentUpload]",
+      "Route": "/ikraz-kaydi-listeleme/belge-yukleme",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) auth-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Ikraz kayd\u0131 uyum gorevlisi onay [ProcessComplianceApproval]",
+      "Route": "/ikraz-kaydi-listeleme/uyum-gorevlisi-onay",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) auth-api (not provided)",
+        "(external) claims-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Job Y\u00F6netimi [JobManagement]",
+      "Route": "/job-yonetimi",
+      "Calls": [
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Kar\u015F\u0131l\u0131k Sorgulama [ActuaryQuerying]",
+      "Route": "/karsilik-sorgulama",
+      "Calls": [
+        "(external) claims-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Katk\u0131 Pay\u0131 De\u011Fi\u015Fikli\u011Fi Detay [ContributionChangeDetails]",
+      "Route": "/katki-payi-degisikligi/detay",
+      "Calls": [
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Katk\u0131 Pay\u0131 De\u011Fi\u015Fikli\u011Fi [ContributionChange]",
+      "Route": "/katki-payi-degisikligi",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) customer-api (not provided)",
+        "(external) pension-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Katk\u0131 Pay\u0131 Teminat\u0131 De\u011Ferlendirme  [ContributionPaymentGuaranteeAssessment]",
+      "Route": "/katki-payi-teminati/onay/degerlendirme",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) auth-api (not provided)",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Katk\u0131 Pay\u0131 Teminat\u0131 Ekran\u0131 [ContributionPaymentGuaranteeQuerying]",
+      "Route": "/katki-payi-teminati",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) customer-api (not provided)",
+        "(external) pension-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Katk\u0131 Pay\u0131 Teminat\u0131 Olu\u015Fturma Ekran\u0131  [ContributionPaymentGuarantee]",
+      "Route": "/katki-payi-teminati/yeni",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Katk\u0131 Pay\u0131 Teminat\u0131 Onay [ContributionPaymentGuaranteeApproval]",
+      "Route": "/katki-payi-teminati/onay",
+      "Calls": [
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Kat\u0131l\u0131m Plan\u0131 Kar\u015F\u0131l\u0131kl\u0131 Tan\u0131mlama [ParticipationPlanMutualIdentification]",
+      "Route": "/katilim-plani-karsilikli-tanimlama",
+      "Calls": [
+        "(external) configurator-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Kaynaklar [Sources]",
+      "Route": "/kaynaklar",
+      "Calls": [
+        "(external) auth-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Kesinti ve Katk\u0131 Pay\u0131 Model Tan\u0131mlama/Sorgulama Onay [ApprovalPage]",
+      "Route": "/kesinti-asgari-katki-zorunlu-katki-modeli/onay",
+      "Calls": [
+        "(external) configurator-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Kesinti ve Katk\u0131 Pay\u0131 Model Tan\u0131mlama/Sorgulama [ContributionModels]",
+      "Route": "/kesinti-asgari-katki-zorunlu-katki-modeli",
+      "Calls": [
+        "(external) configurator-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Kisi Dokuman Konfigurasyonu [PeopleDocumentQuerying]",
+      "Route": "/kisi-dokuman-konfigurasyonu",
+      "Calls": [
+        "(external) configurator-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Kisi Konfigurasyon Roller [PeopleRolesPage]",
+      "Route": "kisi-konfigurasyon-roller",
+      "Calls": [
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Kisi Konfigurasyon Sekt\u00F6r [PersonConfigIndustryPage]",
+      "Route": "kisi-konfigurasyon-sektor",
+      "Calls": [
+        "(external) customer-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Kisi Konfigurasyon Vergi Daireleri [PersonConfigTaxOfficesPage]",
+      "Route": "kisi-konfigurasyon-vergi-daireleri",
+      "Calls": [
+        "(external) customer-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Kisi Konfigurasyon \u0130li\u015Fkiler [PersonConfigRelationsPage]",
+      "Route": "kisi-konfigurasyon-iliskiler",
+      "Calls": [
+        "(external) customer-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Ki\u015Fi Soru Konfig\u00FCrasyonu Sayfas\u0131 [PeopleQuestionQuerying]",
+      "Route": "/kisi-soru-konfigurasyonu",
+      "Calls": [
+        "(external) configurator-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Komisyion Oran\u0131 Sorgulama [IndividualTariffLifeCommissionRateQueryPage]",
+      "Route": "/oran-islemleri/oran-sorgulama-ferdi",
+      "Calls": [
+        "(external) commission-api (not provided)",
+        "(external) customer-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Komisyon Oran\u0131 Y\u00FCkleme [IndividualTariffLifeCommissionRateUploadPage]",
+      "Route": "/oran-islemleri/oran-yukleme-ferdi",
+      "Calls": [
+        "(external) commission-api (not provided)",
+        "(external) customer-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Kredi Kart\u0131 De\u011Fi\u015Fikli\u011Fi [ChangeCreditCard]",
+      "Route": "/kredi-karti-degisikligi",
+      "Calls": [
+        "(external) customer-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Kullan\u0131c\u0131 Listesi Detay [UsersDetail]",
+      "Route": "/kullanici-listesi/detay",
+      "Calls": [
+        "(external) auth-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Kullan\u0131c\u0131 Listesi [Users]",
+      "Route": "/kullanici-listesi",
+      "Calls": [
+        "(external) auth-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Kullan\u0131c\u0131 Rolleri [UsersRole]",
+      "Route": "/kullanici-rolleri",
+      "Calls": [
+        "(external) auth-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Kurumlar [Organizations]",
+      "Route": "/kurumlar",
+      "Calls": [
+        "(external) customer-api (not provided)",
+        "(external) pension-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Kurumsal Bag Ve Ana Sozlesme Yaratma Detay [EngagementDetail]",
+      "Route": "/kurumsal-baglar/detay",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) customer-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Kurumsal Bag Ve Ana Sozlesme Yaratma [EngagementQuerying]",
+      "Route": "/kurumsal-baglar",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) customer-api (not provided)",
+        "(external) pension-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Kurumsal Ba\u011F ve Ana S\u00F6zle\u015Fme Yaratma Yeni [CreateEngagement]",
+      "Route": "/kurumsal-bag-ve-ana-sozlesme-yaratma/yeni",
+      "Calls": [
+        "(external) customer-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Kurumsal Ba\u011F ve Ana S\u00F6zle\u015Fme Yaratma [CreateEngagementAndMasterPolicyQuerying]",
+      "Route": "/kurumsal-bag-ve-ana-sozlesme-yaratma",
+      "Calls": [
+        "(external) customer-api (not provided)",
+        "(external) pension-api (not provided)"
+      ]
+    },
+    {
+      "Name": "K\u0131smi \u00D6deme Hesaplama Arac\u0131 [PartialSurrender]",
+      "Route": "partial-surrender-calculation",
+      "Calls": [
+        "(external) customer-api (not provided)",
+        "(external) pension-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Lehtar Bilgileri [BeneficiaryDetailsRegistration]",
+      "Route": "/tazminat-dosya-sorgulama/lehtar-bilgileri",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Lehtar Bilgileri [BeneficiaryDetailsRegistration]",
+      "Route": "/lehtar-surec-sorgulama/lehtar-bilgileri",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Lehtar Birim Mudur Karar 2. Onay [IndemnityAdministrativeAssessment3]",
+      "Route": "/lehtar-surec-sorgulama/birim-mudur-karar-2-onay",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Lehtar Giden \u00D6deme Sonu\u00E7 [BeneficiaryPaymentResult]",
+      "Route": "/tazminat-dosya-sorgulama/lehtar-giden-odeme-sonuc",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Lehtar Ki\u015Fi Sorgulama Detay [BeneficiaryQueryDetail]",
+      "Route": "/tazminat-dosya-sorgulama/lehtar-kisi-sorgulama/detay",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Lehtar Ki\u015Fi Sorgulama [BeneficiaryQuery]",
+      "Route": "/tazminat-dosya-sorgulama/lehtar-kisi-sorgulama",
+      "Calls": [
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) customer-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Lehtar S\u00FCre\u00E7 Sorgulama [BeneficiaryProcessQuerying]",
+      "Route": "/lehtar-surec-sorgulama",
+      "Calls": [
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Lehtar [BeneficiaryPersonRegistration]",
+      "Route": "/lehtar-surec-sorgulama/lehtar",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Lehtar [BeneficiaryPersonRegistration]",
+      "Route": "/tazminat-dosya-sorgulama/lehtar",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Lehtar \u00D6deme Kayd\u0131 Olu\u015Fturma [BeneficiaryInsuredPaymentRegistration]",
+      "Route": "/lehtar-surec-sorgulama/lehtar-odeme-kaydi-olusturma",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) payment-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Lehtar \u00D6deme Kayd\u0131 Olu\u015Fturma [BeneficiaryInsuredPaymentRegistration]",
+      "Route": "/tazminat-dosya-sorgulama/lehtar-odeme-kaydi-olusturma",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) payment-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Lehtar \u00D6deme Raporu Karar\u0131 2.Onay [BeneficiaryPaymentReportConfirmation]",
+      "Route": "/tazminat-dosya-sorgulama/lehtar-odeme-raporu-karari-onay-2",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Lehtar \u00D6deme Raporu Karar\u0131 Onay [BeneficiaryPaymentReport]",
+      "Route": "/lehtar-surec-sorgulama/lehtar-odeme-raporu-karari-onay",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Lehtar \u00D6deme Raporu Karar\u0131 Onay [BeneficiaryPaymentReport]",
+      "Route": "/tazminat-dosya-sorgulama/lehtar-odeme-raporu-karari-onay",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Manuel Poli\u00E7e \u0130\u015Flemleri [ManualPolicyOperations]",
+      "Route": "/90-gun-kurali-manuel-police-islemleri",
+      "Calls": [
+        "(external) commission-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Manuel Tahsilat Onay De\u011Ferlendirme [ManualCollectionsAssestment]",
+      "Route": "/manuel-tahsilat/onay/degerlendirme",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) auth-api (not provided)",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Manuel Tahsilat Onay Listeleme [ManualCollectionsApproval]",
+      "Route": "/manuel-tahsilat/onay",
+      "Calls": [
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Men\u00FC Listesi Detay [MenuDetailPage]",
+      "Route": "/menu-listesi/detay",
+      "Calls": [
+        "(external) auth-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Men\u00FC Listesi [MenusPage]",
+      "Route": "/menu-listesi",
+      "Calls": [
+        "(external) auth-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Muallak Detay Bilgileri [RequestDetail]",
+      "Route": "/muallak-detay",
+      "Calls": [
+        "(external) claims-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Muhasebe Gelir Tablosu [InvestmentIncome]",
+      "Route": "/muhasebe-geliri",
+      "Calls": [
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "M\u00FC\u015Fteri Karar Ahe [RiskAcceptanceCustomerDecisionAhe]",
+      "Route": "/sozlesme-duzenleme/musteri-karar-ahe",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "M\u00FC\u015Fteri Karar [RiskAcceptanceCustomerDecision]",
+      "Route": "/sozlesme-duzenleme/musteri-karar",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "M\u00FC\u015Fteri Operasyonlar\u0131 [RiskAcceptanceCustomerOperations]",
+      "Route": "/sozlesme-duzenleme/musteri-operasyonlari",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "M\u00FC\u015Fteri Sorgulama Detay [CustomersDetailsPage]",
+      "Route": "/musteri-sorgulama/detay",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "M\u00FC\u015Fteri Sorgulama [CustomersPage]",
+      "Route": "/musteri-sorgulama",
+      "Calls": [
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) customer-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Obje Tipleri Sayfas\u0131 [ObjectRepository]",
+      "Route": "/obje-tipleri",
+      "Calls": [
+        "(external) configurator-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Obje Tipleri [ProductObject]",
+      "Route": "/urun-konfigurasyon/urun-obje-konfigurasyon",
+      "Calls": [
+        "(external) configurator-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Odeme Raporu Karar\u0131 Onay [PaymentReport]",
+      "Route": "/lehtar-surec-sorgulama/odeme-raporu-karari-onay",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Ofis Sorgulama Detay [OfficeDetails]",
+      "Route": "/ofisler/detay",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Ofis Sorgulama [OfficeQuerying]",
+      "Route": "/ofisler",
+      "Calls": [
+        "(external) customer-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Otomatik Kat\u0131l\u0131m Devlet Katk\u0131s\u0131 Bilgileri [OksDetails]",
+      "Route": "/otomatik-katilim-detaylari",
+      "Calls": [
+        "(external) pension-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Parametre Y\u00F6netimi [ParameterManagement]",
+      "Route": "/parametre-yonetimi",
+      "Calls": [
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Plan Kesinti Modelleri [CoverDeductionModels]",
+      "Route": "/plan-kesinti-modelleri",
+      "Calls": [
+        "(external) configurator-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Plan Tanimlama [BesCoverPage]",
+      "Route": "/plan-tanimlama",
+      "Calls": [
+        "(external) configurator-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Plan \u00D6zellikleri Sorgulama [CoverParametersQuerying]",
+      "Route": "/plan-ozellikleri-sorgulama",
+      "Calls": [
+        "(external) configurator-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Poli\u00E7e Listeleme [IndemnityPolicyList]",
+      "Route": "/police-listesi",
+      "Calls": [
+        "(external) claims-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Poli\u00E7e Sorgulama Detay Sonlanma Olu\u015Fturma [PolicySurrenderDetails]",
+      "Route": "/police-sorgulama/detay/sonlanma-olusturma",
+      "Calls": [
+        "(external) auth-api (not provided)",
+        "(external) claims-api (not provided)",
+        "(external) payment-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Poli\u00E7e Sorgulama Detay [PolicyDetails]",
+      "Route": "/police-sorgulama/detay/*",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) claims-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) investment-api (not provided)",
+        "(external) payment-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Poli\u00E7e Sorgulama De\u011Fi\u015Fiklik Kategori Se\u00E7imi [PolicyChangeCategorySelection]",
+      "Route": "/police-sorgulama/detay/degisiklik-kategori-secimi",
+      "Calls": [
+        "(external) auth-api (not provided)",
+        "(external) payment-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Poli\u00E7e Sorgulama Ikraz Olusturma [PolicyLoanRegistrationDetails]",
+      "Route": "/police-sorgulama/detay/ikraz-olusturma",
+      "Calls": [
+        "(external) auth-api (not provided)",
+        "(external) claims-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Poli\u00E7e Sorgulama Sonlanma Kayd\u0131 [PolicySurrenderRegistrationDetails]",
+      "Route": "/police-sorgulama/detay/sonlanma-kaydi",
+      "Calls": [
+        "(external) auth-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Poli\u00E7e Sorgulama [PolicyQuerying]",
+      "Route": "/police-sorgulama",
+      "Calls": [
+        "(external) customer-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Poli\u00E7e \u0130ptal Sorgulama Detay [PolicyCancelDetails]",
+      "Route": "/police-iptal-sorgulama/detay",
+      "Calls": [
+        "(external) claims-api (not provided)",
+        "(external) core-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Poli\u00E7e \u0130ptal Sorgulama [PolicyCancelQuerying]",
+      "Route": "/police-iptal-sorgulama",
+      "Calls": [
+        "(external) customer-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Portf\u00F6y Da\u011F\u0131l\u0131m\u0131 [Portfolio]",
+      "Route": "/portfoy-dagilimi",
+      "Calls": [
+        "(external) pension-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Pozisyon Detay [PositionDetail]",
+      "Route": "/pozisyon/detay",
+      "Calls": [
+        "(external) auth-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Pozisyon Listesi [PositionsPage]",
+      "Route": "/pozisyonlar",
+      "Calls": [
+        "(external) auth-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Prim De\u011Fi\u015Fikli\u011Fi [ChangePremiumPage]",
+      "Route": "/prim-degisikligi",
+      "Calls": [
+        "(external) customer-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Prim Hesaplama [CalculatePremiumPage]",
+      "Route": "/police/prim-hesaplama",
+      "Calls": [
+        "(external) core-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Reasurans Birimi Bilgilendirme [IndemnityReassurance]",
+      "Route": "/lehtar-surec-sorgulama/reasurans-birimi-bilgilendirme",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Reasurans M\u00FCd\u00FCrl\u00FC\u011F\u00FC Karar [RiskAcceptanceReassuranceDecision]",
+      "Route": "/sozlesme-duzenleme/reasurans-mudurlugu-karar",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Reasurans birimi bilgilendirme [IndemnityReassurance]",
+      "Route": "/tazminat-dosya-sorgulama/reasurans-birimi-bilgilendirme",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Reas\u00FCrans Muhasebe Sorgulama [AccountingQuerying]",
+      "Route": "/reasurans-muhasebe-sorgulama",
+      "Calls": [
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Reddedilen Tazminat 1. Onay [RejectScreenFirstConfirmation]",
+      "Route": "/lehtar-surec-sorgulama/reddedilen-tazminat-1-onay",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Reddedilen Tazminat 1. Onay [RejectScreenFirstConfirmation]",
+      "Route": "/tazminat-dosya-sorgulama/reddedilen-tazminat-1-onay",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Reddedilen Tazminat 2. Onay [RejectScreenSecondConfirmation]",
+      "Route": "/lehtar-surec-sorgulama/reddedilen-tazminat-2-onay",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Reddedilen Tazminat 2. Onay [RejectScreenSecondConfirmation]",
+      "Route": "/tazminat-dosya-sorgulama/reddedilen-tazminat-2-onay",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Reddedilen Tazminat Birim Kullan\u0131c\u0131s\u0131 [RejectedIndemnity]",
+      "Route": "/lehtar-surec-sorgulama/reddedilen-tazminat-birim-kullanicisi",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Reddedilen Tazminat Birim Kullan\u0131c\u0131s\u0131 [RejectedIndemnity]",
+      "Route": "/tazminat-dosya-sorgulama/reddedilen-tazminat-birim-kullanicisi",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Reddedilen Tazminat Kayd\u0131 Olu\u015Fturma [RejectedIndemnityRegistrationQuerying]",
+      "Route": "/reddedilen-tazminat-kaydi-olusturma",
+      "Calls": [
+        "(external) claims-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Reddedilen Tazminat Sorgulama [RejectedIndemnityQuerying]",
+      "Route": "/reddedilen-tazminat-sorgulama",
+      "Calls": [
+        "(external) claims-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Risk Kabul Listeleme [RiskAcceptancePage]",
+      "Route": "/sozlesme-duzenleme",
+      "Calls": [
+        "(external) payment-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Risk Kabul S\u00FCrecine Dahil Olma [RiskAcceptanceProcessInvolveFix]",
+      "Route": "/sozlesme-duzenleme/risk-kabul-surecine-dahil-olma",
+      "Calls": [
+        "(external) claims-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Roller Listesi [RoleDetailPage]",
+      "Route": "/rol/detay",
+      "Calls": [
+        "(external) auth-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Roller [Roles]",
+      "Route": "/roller",
+      "Calls": [
+        "(external) auth-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Sat\u0131\u015F Yetkilendirme [SaleAuthorization]",
+      "Route": "/satis-yetkilendirme",
+      "Calls": [
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Sigortali Bilgileri [InsuredDetailsRegistration]",
+      "Route": "/lehtar-surec-sorgulama/sigortali-bilgileri",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Sigortal\u0131 Bilgileri [InsuredDetailsRegistration]",
+      "Route": "/tazminat-dosya-sorgulama/sigortali-bilgileri",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Sonlanma Geri \u00C7ekme Sorgulama Detay [PolicyWithdrawalDetail]",
+      "Route": "/sonlanma-geri-cekme-sorgulama/detay",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) customer-api (not provided)",
+        "(external) payment-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Sonlanma Geri \u00C7ekme Sorgulama [PolicyWithdrawal]",
+      "Route": "/sonlanma-geri-cekme-sorgulama",
+      "Calls": [
+        "(external) customer-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Sonlanma belge kontrol [ProcessDocumentControl]",
+      "Route": "/sonlanma-kaydi-listeleme/belge-kontrol",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) auth-api (not provided)",
+        "(external) claims-api (not provided)",
+        "(external) payment-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Sonlanma belge y\u00FCkleme [ProcessDocumentUpload]",
+      "Route": "/sonlanma-kaydi-listeleme/belge-yukleme",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) auth-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Sonlanma detaylar\u0131 [PolicySurrenderDetails]",
+      "Route": "/sonlanma-sorgulama/sonlanma-detaylari",
+      "Calls": [
+        "(external) auth-api (not provided)",
+        "(external) claims-api (not provided)",
+        "(external) payment-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Sonlanma detaylar\u0131 [PolicySurrenderRegistrationDetails]",
+      "Route": "/sonlanma-sorgulama/sonlanma-detay",
+      "Calls": [
+        "(external) auth-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Sonlanma kayd\u0131 detay [PolicySurrenderRegistrationDetails]",
+      "Route": "/sonlanma-kaydi-listeleme/sonlanma-kaydi-detay",
+      "Calls": [
+        "(external) auth-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Sonlanma kayd\u0131 g\u00FCncelleme [PolicySurrenderRegistrationDetails]",
+      "Route": "/sonlanma-kaydi-listeleme/sonlanma-kaydi-guncelleme",
+      "Calls": [
+        "(external) auth-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Sonlanma listeleme [PolicySurrenderList]",
+      "Route": "/sonlanma-kaydi-listeleme",
+      "Calls": [
+        "(external) auth-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Sonlanma sorgulama [PolicySurrenderQuerying]",
+      "Route": "/sonlanma-sorgulama",
+      "Calls": [
+        "(external) customer-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Sonlanma uyum g\u00F6revlisi onay [ProcessComplianceApproval]",
+      "Route": "/sonlanma-kaydi-listeleme/uyum-gorevlisi-onay",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) auth-api (not provided)",
+        "(external) claims-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Sonlanma \u0130\u015F S\u00FCreci Detay [TerminationProcess]",
+      "Route": "/sonlanma/sonlanma-sureci",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Sonlanma \u0130\u015F S\u00FCreci [TerminationQuerying]",
+      "Route": "/sonlanma",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Sorgulama [GroupPage]",
+      "Route": "/grup-sorgulama",
+      "Calls": [
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Sorgulama [GroupPage]",
+      "Route": "/grup-sorgulama/detay/:groupId",
+      "Calls": [
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Soru Tan\u0131mlama [QuestionRepositoryQuerying]",
+      "Route": "/sorular",
+      "Calls": [
+        "(external) configurator-api (not provided)"
+      ]
+    },
+    {
+      "Name": "S\u00F6zle\u015Fme Operasyonlar\u00C3\u201E\u00C2\u00B1 Sayfas\u0131 [PolicyOperationsQuerying]",
+      "Route": "/sozlesme-operasyonlari",
+      "Calls": [
+        "(external) configurator-api (not provided)"
+      ]
+    },
+    {
+      "Name": "S\u00F6zle\u015Fme Sorgulama Detay [PensionDetails]",
+      "Route": "/sozlesme-sorgulama/detay",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "S\u00F6zle\u015Fme Sorgulama [PensionQuerying]",
+      "Route": "/sozlesme-sorgulama",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) customer-api (not provided)",
+        "(external) pension-api (not provided)"
+      ]
+    },
+    {
+      "Name": "S\u00FCre\u00E7 Detay\u0131 [StepDetailPage]",
+      "Route": "/surecler/detay",
+      "Calls": [
+        "(external) auth-api (not provided)"
+      ]
+    },
+    {
+      "Name": "S\u00FCre\u00E7 \u00D6zet Detay [ProcessSummaryGeneral]",
+      "Route": "/surec-ozet-sorgulama/genel-ozet",
+      "Calls": [
+        "(external) auth-api (not provided)",
+        "(external) claims-api (not provided)",
+        "(external) payment-api (not provided)"
+      ]
+    },
+    {
+      "Name": "S\u00FCre\u00E7 \u00D6zet Detay [ProcessSummaryIndemnity]",
+      "Route": "/surec-ozet-sorgulama/tazminat-ozet",
+      "Calls": [
+        "(external) auth-api (not provided)",
+        "(external) claims-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "S\u00FCre\u00E7 \u00D6zet Detay [ProcessSummaryRiskAcceptance]",
+      "Route": "/surec-ozet-sorgulama/risk-kabul-ozet",
+      "Calls": [
+        "(external) auth-api (not provided)",
+        "(external) claims-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "S\u00FCre\u00E7 \u00D6zet [ProcessSummaryQuerying]",
+      "Route": "/surec-ozet-sorgulama",
+      "Calls": [
+        "(external) claims-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "S\u00FCre\u00E7ler [ProcessPage]",
+      "Route": "/surecler",
+      "Calls": [
+        "(external) auth-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Tahmini Sonlanma De\u011Feri [PredictionEndingValues]",
+      "Route": "termination-values",
+      "Calls": [
+        "(external) customer-api (not provided)",
+        "(external) pension-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Tamamlanmam\u0131\u015F de\u011Fi\u015Fikliklerin iptali [CancelIncompleteChanges]",
+      "Route": "/tamamlanmamis-degisikliklerin-iptali",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) customer-api (not provided)",
+        "(external) pension-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Tamamlanmam\u0131\u015F de\u011Fi\u015Fikliklerin iptali detay [CancelIncompleteChangesDetail]",
+      "Route": "/tamamlanmamis-degisikliklerin-iptali/detay",
+      "Calls": [
+        "(external) customer-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Tan\u0131m Y\u00F6netimi [DefinitionManagement]",
+      "Route": "/tanim-yonetimi",
+      "Calls": [
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Tazminat Birim Kullan\u0131c\u0131s\u0131 Karar [IndemnityAdministrativeAssessment]",
+      "Route": "/lehtar-surec-sorgulama/tazminat-birim-kullanicisi-karar",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Tazminat Birim Kullan\u0131c\u0131s\u0131 Karar [IndemnityAdministrativeAssessment]",
+      "Route": "/tazminat-dosya-sorgulama/tazminat-birim-kullanicisi-karar",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Tazminat Birim M\u00FCd\u00FCr Karar 2.Onay [IndemnityAdministrativeAssessment3]",
+      "Route": "/tazminat-dosya-sorgulama/birim-mudur-karar-2-onay",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Tazminat Dosya Sorgulama [IndemnityQuerying]",
+      "Route": "/tazminat-dosya-sorgulama",
+      "Calls": [
+        "(external) claims-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Tazminat Ek \u00D6deme Olu\u015Fturma Detay [AdditionalPaymentCreation]",
+      "Route": "/tazminat-ek-odeme-olusturma-detay",
+      "Calls": [
+        "(external) claims-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Tazminat Ek \u00D6deme Olu\u015Fturma Onay [AdditionalPaymentApproval]",
+      "Route": "/tazminat-ek-odeme-olusturma/onay",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Tazminat Ek \u00D6deme Olu\u015Fturma [AdditionalPayment]",
+      "Route": "/tazminat-ek-odeme-olusturma",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) claims-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Tazminat Ek \u00D6deme Olu\u015Fturma \u0130kinci Onay [AdditionalPaymentSecondApproval]",
+      "Route": "/tazminat-ek-odeme-olusturma/ikinci-onay",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Tazminat Giden \u00D6deme Sonu\u00E7 [IndemnityPaymentResult]",
+      "Route": "/tazminat-dosya-sorgulama/tazminat-giden-odeme-sonuc",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Tazminat \u00D6zet Ekran Detay [IndemnityFileSummaryDetail]",
+      "Route": "/tazminat-dosya-sorgulama/tazminat-ozet-ekran/detay",
+      "Calls": [
+        "(external) claims-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Tazminat \u00D6zet Ekran Detay [IndemnityFileSummaryDetail]",
+      "Route": "/lehtar-surec-sorgulama/tazminat-ozet-ekran/detay",
+      "Calls": [
+        "(external) claims-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Tazminat \u00D6zet Ekran [IndemnityFileSummary]",
+      "Route": "/tazminat-dosya-sorgulama/tazminat-ozet-ekran",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) claims-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Tazminat \u00D6zet Ekran [IndemnityFileSummary]",
+      "Route": "/lehtar-surec-sorgulama/tazminat-ozet-ekran",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) claims-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Tedbir Onay De\u011Ferlendirme [CautionAssessment]",
+      "Route": "/tedbir/onay/degerlendirme",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) auth-api (not provided)",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Tedbir Onay [CautionApproval]",
+      "Route": "/tedbir/onay",
+      "Calls": [
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Tedbir \u0130\u015F S\u00FCreci [CautionProcess]",
+      "Route": "/tedbir/tedbir-sureci",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Tefe/t\u00FCfe( Katk\u0131 Pay\u0131 Endeksi) Tan\u0131mlama [ContributionMarginIndex]",
+      "Route": "/katki-payi-endeksi",
+      "Calls": [
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Teklif Olu\u015Fturma [CorporatePropositionPage]",
+      "Route": "/grup-emeklilik-teklif-olustur",
+      "Calls": [
+        "(external) claims-api (not provided)",
+        "(external) commission-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) crm-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) document-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Teklif Olu\u015Fturma [CorporatePropositionPage]",
+      "Route": "/grup-emeklilik-teklif-olustur/:tabName/:stepNumber",
+      "Calls": [
+        "(external) claims-api (not provided)",
+        "(external) commission-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) crm-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) document-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Teklif Olu\u015Fturma [CorporatePropositionPage]",
+      "Route": "/grup-emeklilik-teklif-olustur/:corporatePropositionId/:tabName/:stepNumber",
+      "Calls": [
+        "(external) claims-api (not provided)",
+        "(external) commission-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) crm-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) document-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Teklif \u0130zleme [CorporatePropositionSearchPage]",
+      "Route": "/grup-emeklilik-teklif-izleme",
+      "Calls": [
+        "(external) auth-api (not provided)",
+        "(external) payment-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Toplu \u00D6deme Temizleme [BulkPaymentClear]",
+      "Route": "/toplu-odeme-temizleme",
+      "Calls": [
+        "(external) pension-api (not provided)"
+      ]
+    },
+    {
+      "Name": "T\u0131bbi De\u011Ferlendirme Yetkili Kullan\u0131c\u0131 Karar [IndemnityMedicalAssessmentAuth]",
+      "Route": "/tazminat-dosya-sorgulama/tibbi-degerlendirme-yetkili-kullanici-karar",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "T\u0131bbi De\u011Ferlendirme [RiskAcceptanceAndMedicalAssesmentFix]",
+      "Route": "/sozlesme-duzenleme/tibbi-degerlendirme",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "T\u0131bbi De\u011Ferlendirme [RiskAcceptanceAndMedicalAssesment]",
+      "Route": "/sozlesme-duzenleme/tibbi-degerlendirme",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "T\u0131bbi De\u011Ferlendirme \u0130lgili Kullan\u0131c\u0131 Karar [IndemnityMedicalAssessment]",
+      "Route": "/lehtar-surec-sorgulama/tibbi-degerlendirme-ilgili-kullanici-karar",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "T\u0131bbi De\u011Ferlendirme \u0130lgili Kullan\u0131c\u0131 Karar [IndemnityMedicalAssessment]",
+      "Route": "/tazminat-dosya-sorgulama/tibbi-degerlendirme-ilgili-kullanici-karar",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Urun Tanimlama [ProductRepositoryPage]",
+      "Route": "/urun-tanimlama",
+      "Calls": [
+        "(external) configurator-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Uygulamalar [ApplicationsPage]",
+      "Route": "/uygulamalar",
+      "Calls": [
+        "(external) auth-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Vade Gelimi Aktarma Detay [PolicyMaturityTransferDetails]",
+      "Route": "vade-gelimi-aktarma/detay",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) claims-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Vade Gelimi Aktarma [PolicyMaturityTransfer]",
+      "Route": "/vade-gelimi-aktarma",
+      "Calls": [
+        "(external) claims-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Vade Gelimi \u00D6deme Detay [PolicyMaturityListDetails]",
+      "Route": "vade-gelimi-odeme/detay",
+      "Calls": [
+        "(external) claims-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) payment-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Vekalet [AuthDelegationPage]",
+      "Route": "/vekalet",
+      "Calls": [
+        "(external) auth-api (not provided)",
+        "(external) payment-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Vergi Karar\u0131 [BeneficiaryTaxDecision]",
+      "Route": "/lehtar-surec-sorgulama/vergi-karari",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Vergi Karar\u0131 [BeneficiaryTaxDecision]",
+      "Route": "/tazminat-dosya-sorgulama/vergi-karari",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Vergi Muafiyeti Yaz\u0131s\u0131 [BeneficiaryPaymentReportConfirmation]",
+      "Route": "/lehtar-surec-sorgulama/lehtar-odeme-raporu-karari-onay-2",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Vergi Muafiyeti Yaz\u0131s\u0131 [BeneficiaryTaxRegistration]",
+      "Route": "/lehtar-surec-sorgulama/vergi-muafiyet-yazisi",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Vergi Muafiyeti Yaz\u0131s\u0131 [BeneficiaryTaxRegistration]",
+      "Route": "/tazminat-dosya-sorgulama/vergi-muafiyet-yazisi",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "YYK Kayd\u0131 Detay [PreReinstateDetails]",
+      "Route": "/yyk-kaydi-olusturma/yyk-kaydi-detay",
+      "Calls": [
+        "(external) customer-api (not provided)",
+        "(external) payment-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "YYK Kayd\u0131 Olu\u015Fturma [PreReinstateQuerying]",
+      "Route": "/yyk-kaydi-olusturma",
+      "Calls": [
+        "(external) customer-api (not provided)"
+      ]
+    },
+    {
+      "Name": "YYK Listeleme Belge Kontrol [ReinstateFileCheck]",
+      "Route": "/yyk-listeleme/belge-kontrol",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "YYK Listeleme Belge Y\u00FCkleme [ReinstateFileUpload]",
+      "Route": "/yyk-listeleme/belge-yukleme",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "YYK Listeleme Genel M\u00FCd\u00FCr Karar [GMDecision]",
+      "Route": "/yyk-listeleme/genel-mudur-karar",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "YYK Listeleme Genel M\u00FCd\u00FCr Yard\u0131mc\u0131s\u0131 Karar [GMYDecision]",
+      "Route": "/yyk-listeleme/genel-mudur-yardimcisi-karar",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "YYK Listeleme M\u00FC\u015Fteri Operasyonlar\u0131 M\u00FCd\u00FCrl\u00FC\u011F\u00FC Karar [CustomerOperationsAssessment]",
+      "Route": "/yyk-listeleme/musteri-operasyonlari-mudurlugu-karar",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "YYK Listeleme Reas\u00FCrans M\u00FCd\u00FCrl\u00FC\u011F\u00FC Karar [ReassuranceDecision]",
+      "Route": "/yyk-listeleme/reasurans-mudurlugu-karar",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "YYK Listeleme Risk Kabul Tibbi De\u011Ferlendirme [RiskAcceptanceAndMedicalAssesmentFix]",
+      "Route": "/yyk-listeleme/risk-kabul-tibbi-degerlendirme",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "YYK Listeleme Risk Kabul Tibbi De\u011Ferlendirme [RiskAcceptanceAndMedicalAssesment]",
+      "Route": "/yyk-listeleme/risk-kabul-tibbi-degerlendirme",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "YYK Listeleme [YYKQuerying]",
+      "Route": "/yyk-listeleme",
+      "Calls": [
+        "(external) customer-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "YYK Listeleme \u0130\u00E7 Kontrol M\u00FCd\u00FCrl\u00FC\u011F\u00FC Karar [InternalControlDecision]",
+      "Route": "/yyk-listeleme/ic-kontrol-mudurlugu-karar",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "YYK Risk Kabul S\u00FCrecine Dahil Olma [RiskAcceptanceProcessInvolve]",
+      "Route": "/yyk-listeleme/risk-kabul-surecine-dahil-olma",
+      "Calls": [
+        "(external) claims-api (not provided)"
+      ]
+    },
+    {
+      "Name": "YYK Tahsilat Olu\u015Fturma [CollectionCreation]",
+      "Route": "/yyk-listeleme/tahsilat-olusturma",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) core-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) payment-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Yeni \u00DCr\u00FCn/Tarife Tan\u0131mlama ve Sorgulama [ProductSearchPage]",
+      "Route": "/urun-tarife-tanim",
+      "Calls": [
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Yetkilendirme De\u011Fi\u015Fiklik Onay Detay [RequestDetailPage]",
+      "Route": "/yetkilendirme-degisiklik-onay/detay",
+      "Calls": [
+        "(external) auth-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Yetkilendirme De\u011Fi\u015Fiklik Onay [RequestsPage]",
+      "Route": "/yetkilendirme-degisiklik-onay",
+      "Calls": [
+        "(external) auth-api (not provided)"
+      ]
+    },
+    {
+      "Name": "Zamanlanmis Isler [Scheduler]",
+      "Route": "/zamanlanmis-isler",
+      "Calls": [
+        "(external) pension-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u00C7al\u0131\u015Fanlar [Staff]",
+      "Route": "/calisanlar",
+      "Calls": [
+        "(external) customer-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u00C7\u0131kmayan \u00D6deme Sorgulama [OutgoingPaymentList]",
+      "Route": "/cikmayan-odemeler",
+      "Calls": [
+        "(external) auth-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u00C7\u0131kmayan \u00D6demeler Ba\u015Far\u0131s\u0131z \u00D6deme [FailedPayment]",
+      "Route": "/cikmayan-odemeler/basarisiz-odeme",
+      "Calls": [
+        "(external) auth-api (not provided)",
+        "(external) claims-api (not provided)",
+        "(external) payment-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u00C7\u0131kmayan \u00D6demeler IBAN Aramas\u0131 [IBANSearch]",
+      "Route": "/cikmayan-odemeler/iban-aramasi",
+      "Calls": [
+        "(external) auth-api (not provided)",
+        "(external) claims-api (not provided)",
+        "(external) payment-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u00C7\u0131kmayan \u00D6demeler Tekrar \u00D6deme [RetryPayment]",
+      "Route": "/cikmayan-odemeler/tekrar-odeme",
+      "Calls": [
+        "(external) auth-api (not provided)",
+        "(external) claims-api (not provided)",
+        "(external) payment-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u00D6deme Kayd\u0131 Olu\u015Fturma [InsuredPaymentRegistration]",
+      "Route": "/lehtar-surec-sorgulama/odeme-kaydi-olusturma",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) payment-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u00D6deme Kayd\u0131 Olu\u015Fturma [InsuredPaymentRegistration]",
+      "Route": "/tazminat-dosya-sorgulama/odeme-kaydi-olusturma",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) payment-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u00D6deme Raporu Karar\u0131 2. Onay [PaymentReportConfirmation]",
+      "Route": "/lehtar-surec-sorgulama/odeme-raporu-karari-onay-2",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u00D6deme Raporu Karar\u0131 2.Onay [PaymentReportConfirmation]",
+      "Route": "/tazminat-dosya-sorgulama/odeme-raporu-karari-onay-2",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u00D6deme Raporu Karar\u0131 Onay [PaymentReport]",
+      "Route": "/tazminat-dosya-sorgulama/odeme-raporu-karari-onay",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u00D6demeler Y\u00F6netimi [PaymentManagementQuerying]",
+      "Route": "/odemeler-yonetimi",
+      "Calls": [
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u00D6dememe \u00F6demeye ara verme talimat\u0131 [NonPayment]",
+      "Route": "/odememe-odemeye-ara-verme-talimati",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) customer-api (not provided)",
+        "(external) pension-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u00D6dememe \u00F6demeye are verme talimat\u0131 yeni [NonPaymentCreate]",
+      "Route": "/odememe-odemeye-ara-verme-talimati/yeni",
+      "Calls": [
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u00DCr\u00FCn A\u00E7\u0131klamas\u0131 [ProductText]",
+      "Route": "/urun-konfigurasyon/urun-aciklamasi",
+      "Calls": [
+        "(external) configurator-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u00DCr\u00FCn Belgeleri [ProductDocument]",
+      "Route": "/urun-konfigurasyon/urun-dokumanlari-iliskilendirme",
+      "Calls": [
+        "(external) configurator-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u00DCr\u00FCn Konfig\u00FCrasyon [ProductConfigurationPage]",
+      "Route": "/urun-konfigurasyon",
+      "Calls": [
+        "(external) configurator-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u00DCr\u00FCn Parametre Konfig\u00FCrasyonu [ProductParameterConfig]",
+      "Route": "/urun-konfigurasyon/urun-parametre-iliskilendirme",
+      "Calls": [
+        "(external) configurator-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u00DCr\u00FCn Parametreleri [ProductParametersQuerying]",
+      "Route": "/urun-parametreleri",
+      "Calls": [
+        "(external) configurator-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u00DCr\u00FCn Plan \u0130li\u015Fkilendirme [CoverProdPage]",
+      "Route": "/urun-konfigurasyon/urun-plan-iliskilendirme",
+      "Calls": [
+        "(external) configurator-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u00DCr\u00FCn Soru Konfig\u00FCrasyonu [ProductQuestionConfig]",
+      "Route": "/urun-konfigurasyon/urun-soru-iliskilendirme",
+      "Calls": [
+        "(external) configurator-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u00DCr\u00FCn \u00D6zellikleri [ProductAttributes]",
+      "Route": "/urun-konfigurasyon/urun-ozellikleri",
+      "Calls": [
+        "(external) configurator-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u00DCr\u00FCn/Tarife Tarife [LegalTariffDetailPage]",
+      "Route": "/urun-tarife-tanim/tarife/detay",
+      "Calls": [
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u00DCr\u00FCn/Tarife \u00DCr\u00FCn [LegalGroupDetailPage]",
+      "Route": "/urun-tarife-tanim/urun/detay",
+      "Calls": [
+        "(external) customer-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u00DCst Y\u00F6netim Karar\u0131 Genel Mudur Yard\u0131mc\u0131s\u0131 [IndemnityAdministrativeAssessmentGMY]",
+      "Route": "/lehtar-surec-sorgulama/ust-yonetim-karari-genel-mudur-yardimcisi",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u00DCst Y\u00F6netim Karar\u0131 Genel Mudur [IndemnityAdministrativeAssessmentGM]",
+      "Route": "/lehtar-surec-sorgulama/ust-yonetim-karari-genel-mudur",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u00DCst Y\u00F6netim Karar\u0131 Genel M\u00FCd\u00FCr Yard\u0131mc\u0131s\u0131 [IndemnityAdministrativeAssessmentGMY]",
+      "Route": "/tazminat-dosya-sorgulama/ust-yonetim-karari-genel-mudur-yardimcisi",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u00DCst Y\u00F6netim Karar\u0131 Genel M\u00FCd\u00FCr [IndemnityAdministrativeAssessmentGM]",
+      "Route": "/tazminat-dosya-sorgulama/ust-yonetim-karari-genel-mudur",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u0130TS Yetkili Kullan\u0131c\u0131 De\u011Fi\u015Fikli\u011Fi [ITSChangePage]",
+      "Route": "/its-yetkili-kullanici-degisikligi",
+      "Calls": [
+        "(external) pension-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u0130TS Yetkili Kullan\u0131c\u0131 Ekleme ve Kald\u0131rma [ITSAddDeleteUser]",
+      "Route": "/its-yetkili-kullanici-degisikligi/kullanici-duzenleme",
+      "Calls": [
+        "(external) pension-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u0130hbar Olu\u015Fturma [ClaimRegistration]",
+      "Route": "/ihbar-olusturma",
+      "Calls": [
+        "(external) claims-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u0130hbar Sorgulama Belge Kontrol [FileCheck]",
+      "Route": "/ihbar-sorgulama/belge-kontrol",
+      "Calls": [
+        "(external) claims-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u0130hbar Sorgulama Belge Y\u00FCkleme [FileUpload]",
+      "Route": "/ihbar-sorgulama/belge-yukleme",
+      "Calls": [
+        "(external) claims-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u0130hbar Sorgulama Dok\u00FCman Listeleme [ClaimsDocumentPage]",
+      "Route": "/ihbar-sorgulama/dokuman-listesi",
+      "Calls": [
+        "(external) claims-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u0130hbar Sorgulama M\u00FC\u015Fteri Bilgileri [CustomerInfo]",
+      "Route": "/ihbar-sorgulama/musteri-bilgileri",
+      "Calls": [
+        "(external) claims-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u0130hbar Sorgulama Tazminat Poli\u00E7e \u0130\u015Flemleri [InformPolicyList]",
+      "Route": "/ihbar-sorgulama/tazminat-police-islemleri",
+      "Calls": [
+        "(external) claims-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u0130hbar Sorgulama Zaman A\u015F\u0131m\u0131 Karar [ClaimsInfo]",
+      "Route": "/ihbar-sorgulama/ihbar-kaydi-bilgileri",
+      "Calls": [
+        "(external) claims-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u0130hbar Sorgulama Zaman A\u015F\u0131m\u0131 Karar [TimeoutInform]",
+      "Route": "/ihbar-sorgulama/zaman-asimi-karar",
+      "Calls": [
+        "(external) claims-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u0130hbar Sorgulama [ConveyanceQuerying]",
+      "Route": "/ihbar-sorgulama",
+      "Calls": [
+        "(external) auth-api (not provided)",
+        "(external) claims-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u0130kraz Geri \u00C7ekme Sorgulama Detay [PolicyLoanWithdrawalDetail]",
+      "Route": "/ikraz-geri-cekme-sorgulama/detay",
+      "Calls": [
+        "(external) auth-api (not provided)",
+        "(external) claims-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u0130kraz Geri \u00C7ekme Sorgulama [LoanWithDrawal]",
+      "Route": "/ikraz-geri-cekme-sorgulama",
+      "Calls": [
+        "(external) claims-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) investment-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u0130kraz Kayd\u0131 Listeleme Detay [PolicyLoanRegistrationDetails]",
+      "Route": "/ikraz-kaydi-listeleme/ikraz-detay",
+      "Calls": [
+        "(external) auth-api (not provided)",
+        "(external) claims-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u0130kraz Kayd\u0131 Listeleme [PolicyLoanList]",
+      "Route": "/ikraz-kaydi-listeleme",
+      "Calls": [
+        "(external) auth-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u0130kraz Sorgulama Detay [PolicyLoanQueryingDetails]",
+      "Route": "/ikraz-sorgulama/detay",
+      "Calls": [
+        "(external) auth-api (not provided)",
+        "(external) claims-api (not provided)",
+        "(external) investment-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u0130kraz Sorgulama [PolicyLoanQueryingList]",
+      "Route": "/ikraz-sorgulama",
+      "Calls": [
+        "(external) customer-api (not provided)",
+        "(external) policy-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u0130mza Yetkilisi Karar 1. Derece 1. Onay [IndemnityAdministrativeAssessment1]",
+      "Route": "/lehtar-surec-sorgulama/imza-yetkilisi-karar-1-derece-1-onay",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u0130mza Yetkilisi Karar 1.Derece 1.Onay [IndemnityAdministrativeAssessment1]",
+      "Route": "/tazminat-dosya-sorgulama/imza-yetkilisi-karar-1-derece-1-onay",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u0130mza Yetkilisi Karar 2. Derece [IndemnityAdministrativeAssessment2]",
+      "Route": "/lehtar-surec-sorgulama/imza-yetkilisi-karar-2-derece",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u0130mza Yetkilisi Karar 2.Derece [IndemnityAdministrativeAssessment2]",
+      "Route": "/tazminat-dosya-sorgulama/imza-yetkilisi-karar-2-derece",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u0130\u00E7 Kontrol M\u00FCd\u00FCrl\u00FC\u011F\u00FC Karar [RiskAcceptanceInternalControlDecision]",
+      "Route": "/sozlesme-duzenleme/ickontrol-mudurlugu-karar",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u015E\u00FCpheli \u0130\u015Flem Karar [SuspectEnquiryConfirmation]",
+      "Route": "/lehtar-surec-sorgulama/supheli-islem-karar",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u015E\u00FCpheli \u0130\u015Flem Karar [SuspectEnquiryConfirmation]",
+      "Route": "/tazminat-dosya-sorgulama/supheli-islem-karar",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u015E\u00FCpheli \u0130\u015Flem Sorgulama [SuspectEnquiry]",
+      "Route": "/lehtar-surec-sorgulama/supheli-islem-sorgulama",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    },
+    {
+      "Name": "\u015E\u00FCpheli \u0130\u015Flem Sorgulama [SuspectEnquiry]",
+      "Route": "/tazminat-dosya-sorgulama/supheli-islem-sorgulama",
+      "Calls": [
+        "(external) External service (repository not provided)",
+        "(external) External: ahenovauat.anadoluhayat.com.tr",
+        "(external) claims-api (not provided)",
+        "(external) configurator-api (not provided)",
+        "(external) customer-api (not provided)",
+        "(external) legacy-api (not provided)",
+        "(external) pension-api (not provided)",
+        "(external) policy-api (not provided)",
+        "(external) process-api (not provided)"
+      ]
+    }
+  ]
+}
