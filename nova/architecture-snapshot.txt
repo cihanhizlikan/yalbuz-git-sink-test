@@ -1,7 +1,8 @@
 [meta]
-3	NOVA	0	1	0	tr	ServiceCatalog
+3	NOVA	0	1	0	tr	LogicTree,ServiceCatalog
 [digests]
 NOVA-service-catalog.html	B0C44DB3EB76AC2C5BD73F6EFC72AA713252A56AF01F044C0D08FDDE03082211
+NOVA-ui-service-call-logic-tree-html.zip	B847EF9DB9BAD7CB98D5A9388A3AD175215943F39680FE9F3FE2E54622072595
 [sources]
 NOVA	Folder	C:\\Users\\ihizl\\source\\repos\\NOVA	main
 [endpoints]
@@ -38980,4 +38981,4 @@ s	3801	POST	Notification/Notification	/Notification/Notification	1222	\0	request
 .NET	10.0	Nova.Process.Infrastructure	NOVA	Services/Process/Nova.Process.Infrastructure/Nova.Process.Infrastructure.csproj
 .NET	10.0	SagaStateMachine.Service	NOVA	Services/SagaStateMachine/SagaStateMachine.Service/SagaStateMachine.Service.csproj
 [end]
-38969
+38970
